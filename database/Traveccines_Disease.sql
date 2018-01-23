@@ -26,7 +26,7 @@ DROP TABLE IF EXISTS `Disease`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `Disease` (
   `idDisease` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `disease` varchar(50) DEFAULT NULL,
+  `disease` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`idDisease`),
   KEY `disease` (`disease`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-01-23 14:53:48
+-- Dump completed on 2018-01-23 15:29:14

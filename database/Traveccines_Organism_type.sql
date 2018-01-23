@@ -18,27 +18,29 @@ USE `Traveccines`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `MedicalRecommendation`
+-- Table structure for table `Organism_type`
 --
 
-DROP TABLE IF EXISTS `MedicalRecommendation`;
+DROP TABLE IF EXISTS `Organism_type`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `MedicalRecommendation` (
-  `idRecommendation` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `recommendation` varchar(1000) DEFAULT NULL,
-  PRIMARY KEY (`idRecommendation`),
-  KEY `recommendation` (`recommendation`(767))
+CREATE TABLE `Organism_type` (
+  `idType` varchar(50) NOT NULL DEFAULT '',
+  `organism` varchar(250) DEFAULT NULL,
+  `type` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`idType`),
+  KEY `organism` (`organism`),
+  KEY `type` (`type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `MedicalRecommendation`
+-- Dumping data for table `Organism_type`
 --
 
-LOCK TABLES `MedicalRecommendation` WRITE;
-/*!40000 ALTER TABLE `MedicalRecommendation` DISABLE KEYS */;
-/*!40000 ALTER TABLE `MedicalRecommendation` ENABLE KEYS */;
+LOCK TABLES `Organism_type` WRITE;
+/*!40000 ALTER TABLE `Organism_type` DISABLE KEYS */;
+/*!40000 ALTER TABLE `Organism_type` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-01-23 15:29:14
+-- Dump completed on 2018-01-23 15:29:13

@@ -18,27 +18,31 @@ USE `Traveccines`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `MedicalRecommendation`
+-- Table structure for table `Transmission`
 --
 
-DROP TABLE IF EXISTS `MedicalRecommendation`;
+DROP TABLE IF EXISTS `Transmission`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `MedicalRecommendation` (
-  `idRecommendation` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `recommendation` varchar(1000) DEFAULT NULL,
-  PRIMARY KEY (`idRecommendation`),
-  KEY `recommendation` (`recommendation`(767))
+CREATE TABLE `Transmission` (
+  `idTransmission` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `source` varchar(250) DEFAULT NULL,
+  `disease` varchar(100) DEFAULT NULL,
+  `transmission_via` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`idTransmission`),
+  KEY `source` (`source`),
+  KEY `disease` (`disease`),
+  KEY `transmission_via` (`transmission_via`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `MedicalRecommendation`
+-- Dumping data for table `Transmission`
 --
 
-LOCK TABLES `MedicalRecommendation` WRITE;
-/*!40000 ALTER TABLE `MedicalRecommendation` DISABLE KEYS */;
-/*!40000 ALTER TABLE `MedicalRecommendation` ENABLE KEYS */;
+LOCK TABLES `Transmission` WRITE;
+/*!40000 ALTER TABLE `Transmission` DISABLE KEYS */;
+/*!40000 ALTER TABLE `Transmission` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

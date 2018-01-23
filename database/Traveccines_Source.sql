@@ -18,27 +18,29 @@ USE `Traveccines`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `MedicalRecommendation`
+-- Table structure for table `Source`
 --
 
-DROP TABLE IF EXISTS `MedicalRecommendation`;
+DROP TABLE IF EXISTS `Source`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `MedicalRecommendation` (
-  `idRecommendation` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `recommendation` varchar(1000) DEFAULT NULL,
-  PRIMARY KEY (`idRecommendation`),
-  KEY `recommendation` (`recommendation`(767))
+CREATE TABLE `Source` (
+  `idOrganism` varchar(50) NOT NULL DEFAULT '',
+  `name` varchar(250) DEFAULT NULL,
+  `Type` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`idOrganism`),
+  KEY `name` (`name`),
+  KEY `type` (`Type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `MedicalRecommendation`
+-- Dumping data for table `Source`
 --
 
-LOCK TABLES `MedicalRecommendation` WRITE;
-/*!40000 ALTER TABLE `MedicalRecommendation` DISABLE KEYS */;
-/*!40000 ALTER TABLE `MedicalRecommendation` ENABLE KEYS */;
+LOCK TABLES `Source` WRITE;
+/*!40000 ALTER TABLE `Source` DISABLE KEYS */;
+/*!40000 ALTER TABLE `Source` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
