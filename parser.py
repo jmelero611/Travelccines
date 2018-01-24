@@ -1,5 +1,6 @@
+#!/bin/env python 3
 import re
-
+import urllib.request as urquest
 
 def remove_flags(string):
     """
@@ -10,8 +11,6 @@ def remove_flags(string):
     string = re.sub(r'\s+', " ", string)
     string = re.sub(r'^\s', "", string)
     return(string)
-
-
 def parse_html(file_name):
     """
     :param file_name of the file to parse:
@@ -152,7 +151,11 @@ def parse_html(file_name):
                 elif re.search(r'<a href="#" class="tp-link-policy">Top</a>',line):
                     non_vaccine_flag = False
     return vaccinable ,patient_counseling ,other_diseases
-
+def url_to_html(url):
+    html_FILEHANDLE = urquest.urlopen(url)
+    html_file = html_FILEHANDLE.read().decode("utf8")
+    html_FILEHANDLE.close()
+    return html_file
 
 
 
