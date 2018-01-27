@@ -2,6 +2,7 @@
 import re
 import urllib.request as urquest
 import time
+from os import chdir, system
 import sys
 from pandas import DataFrame
 def url_to_html(url):
@@ -18,6 +19,7 @@ def remove_flags(string):
     string = re.sub(r'\s+', " ", string)
     string = re.sub(r'^\s', "", string)
     string = re.sub(r'&quot;', "", string)
+    string = re.sub(r'&ndash;', '-', string)
     return(string)
 def parse_html(file):
     """
@@ -105,7 +107,7 @@ def parse_html(file):
                     tbody_flag = False
                     vam_flag = False
 
-        elif re.search(r'^\s*Patient Counseling$',line):
+        elif re.search(r'^\s+Patient Counseling',line):
             counseling_flag = True
             continue
 
@@ -164,16 +166,50 @@ def dict_name_to_three():
             line = line.split('\t')
             name_to_three[line[1].lower()] = line[0]
     return name_to_three
+def get_maps(country):
+    '''
+
+    :param country:
+    :obs ojo que no ha funcionado con todos los paises!!
+
+    '''
+    chdir('maps')
+    system('wget https://wwwnc.cdc.gov/travel/images/map-%s.png' %country)
+    chdir('..')
+def save_tables(dhasc = False, country_table = False, c_has_rec = False):
+    if dhasc:
+        with open('disease_has_country.tbl', "w") as fh:
+            fh.write('disease\tidCountry\n')
+            for dc_pair in dhasc:
+                fh.write('%s\t%s\n' %(dc_pair[0], dc_pair[1]))
+    if country_table:
+        with open('country.tbl', "w") as c:
+            c.write('idCountry\tCountry_name\tmap\tDevelopment\n')
+            for country in country_table:
+                c.write('%s\t%s\t%s\t%s\n' %(country[0], country[1], country[2], country[3]))
+    if c_has_rec:
+        with open('country_has_recomendations.tbl', "w") as c:
+            c.write('idCountry\tRecomendations\n')
+            for cr_pair in c_has_rec:
+                c.write('%s\t%s\n' %(cr_pair[0], cr_pair[1]))
 def html_to_table(list_of_countries):
     name_to_three = dict_name_to_three()
-    dhasc = []
+    d_has_c = []
+    country_table = []
+    c_has_rec = []
     for country in list_of_countries:
+        print('Working on %s...' %country)
         c_vaccinable, c_patient_counseling, c_other_diseases = parse_html('https://wwwnc.cdc.gov/travel/destinations/clinician/none/%s' %country)
         for disease in c_vaccinable:
-            dhasc.append((disease, name_to_three[country]))
+            d_has_c.append((disease, name_to_three[country]))
+        for recomendation in c_patient_counseling:
+            c_has_rec.append((recomendation, name_to_three[country]))
+        #get_maps(country)
+        country_table.append((name_to_three[country], country, 'maps/map-%s' %country, 1))
         time.sleep(5)
-    print(dhasc)
+
+    save_tables(dhasc = d_has_c, country_table = country_table, c_has_rec = c_has_rec)
 
 with open('cdc_paises.txt') as infile:
     list = infile.read().split('\n')
-    html_to_table(list[:5])
+    html_to_table(list)
