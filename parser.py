@@ -2,9 +2,8 @@
 import re
 import urllib.request as urquest
 import time
-from os import chdir, system
-import sys
-from pandas import DataFrame
+from os import chdir, system, mkdir, path
+
 def url_to_html(url):
     html_FILEHANDLE = urquest.urlopen(url)
     for line in html_FILEHANDLE:
@@ -91,14 +90,14 @@ def parse_html(file):
                     transmission_flag = True
                     match = re.search(r'<p>(.*)',line).group(1)
                     match = remove_flags(match)
-                    vaccinable[current_disease]["transmission"] += match
+                    vaccinable[current_disease]["transmission"] = [match]
                     continue
 
                 elif transmission_flag:
                     if not re.search(r'</td>',line):
                         if not re.search(r'class=".*',line):
                             line = remove_flags(line)
-                            vaccinable[current_disease]["transmission"] += line
+                            vaccinable[current_disease]["transmission"].append(line)
 
                     else:
                         transmission_flag = False
@@ -168,47 +167,64 @@ def dict_name_to_three():
     return name_to_three
 def get_maps(country):
     '''
-
     :param country:
     :obs ojo que no ha funcionado con todos los paises!!
-
     '''
     chdir('maps')
     system('wget https://wwwnc.cdc.gov/travel/images/map-%s.png' %country)
     chdir('..')
-def save_tables(dhasc = False, country_table = False, c_has_rec = False):
+def save_tables(dhasc = False, country_table = False, c_has_rec = False, disease_table = False, d_has_t = False):
+    if not path.isdir('tables'):
+        mkdir('tables')
     if dhasc:
-        with open('disease_has_country.tbl', "w") as fh:
-            fh.write('disease\tidCountry\n')
+        with open('tables/disease_has_country.tbl', "w") as dc:
+            dc.write('disease\tidCountry\n')
             for dc_pair in dhasc:
-                fh.write('%s\t%s\n' %(dc_pair[0], dc_pair[1]))
+                dc.write('%s\t%s\n' %(dc_pair[0], dc_pair[1]))
     if country_table:
-        with open('country.tbl', "w") as c:
+        with open('tables/country.tbl', "w") as c:
             c.write('idCountry\tCountry_name\tmap\tDevelopment\n')
             for country in country_table:
                 c.write('%s\t%s\t%s\t%s\n' %(country[0], country[1], country[2], country[3]))
     if c_has_rec:
-        with open('country_has_recomendations.tbl', "w") as c:
-            c.write('idCountry\tRecomendations\n')
+        with open('tables/country_has_recomendations.tbl', "w") as cr:
+            cr.write('idCountry\tRecomendations\n')
             for cr_pair in c_has_rec:
-                c.write('%s\t%s\n' %(cr_pair[0], cr_pair[1]))
+                cr.write('%s\t%s\n' %(cr_pair[0], cr_pair[1]))
+    if disease_table:
+        with open('tables/disease.tbl', "w") as d:
+            d.write('idDisease\tDisease_name\tPatogen\tImportance\n')
+            for disease in disease_table:
+                d.write('%s\t%s\t%s\t%s\n' %(disease_table[disease][0], disease, disease_table[disease][1], disease_table[disease][2]))
+    if d_has_t:
+        with open('tables/disease_has_transmission.tbl', "w") as dt:
+            dt.write('idDisease\tidTransmission\n')
+            for dt_pair in d_has_t:
+                dt.write('%s\t%s\n' %(dt_pair[0], dt_pair[1]))
+
 def html_to_table(list_of_countries):
     name_to_three = dict_name_to_three()
     d_has_c = []
     country_table = []
     c_has_rec = []
+    diseases_table = {}
+    d_has_t = set()
     for country in list_of_countries:
         print('Working on %s...' %country)
         c_vaccinable, c_patient_counseling, c_other_diseases = parse_html('https://wwwnc.cdc.gov/travel/destinations/clinician/none/%s' %country)
         for disease in c_vaccinable:
             d_has_c.append((disease, name_to_three[country]))
+            diseases_table[disease] = ('id', 'patogen', 'importance')
+            for transmission in c_vaccinable[disease]['transmission']:
+                d_has_t.add((disease, transmission))
         for recomendation in c_patient_counseling:
             c_has_rec.append((recomendation, name_to_three[country]))
         #get_maps(country)
         country_table.append((name_to_three[country], country, 'maps/map-%s' %country, 1))
-        time.sleep(5)
+        time.sleep(6)
 
-    save_tables(dhasc = d_has_c, country_table = country_table, c_has_rec = c_has_rec)
+    save_tables(dhasc = d_has_c, country_table = country_table, c_has_rec = c_has_rec, disease_table = diseases_table, d_has_t = d_has_t)
+
 
 with open('cdc_paises.txt') as infile:
     list = infile.read().split('\n')
