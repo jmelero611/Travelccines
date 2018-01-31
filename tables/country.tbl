@@ -1,0 +1,246 @@
+idCountry	Country_name	map	Development
+AFG	afghanistan	maps/map-afghanistan	Low
+ALB	albania	maps/map-albania	High
+DZA	algeria	maps/map-algeria	High
+ASM	american-samoa	maps/map-american-samoa	Low
+AND	andorra	maps/map-andorra	Very High
+AGO	angola	maps/map-angola	Low
+AIA	anguilla	maps/map-anguilla	Low
+ATA	antarctica	maps/map-antarctica	Low
+ATG	antigua-and-barbuda	maps/map-antigua-and-barbuda	High
+ARG	argentina	maps/map-argentina	Very High
+ARM	armenia	maps/map-armenia	High
+ABW	aruba	maps/map-aruba	Low
+AUS	australia	maps/map-australia	Very High
+AUT	austria	maps/map-austria	Very High
+AZE	azerbaijan	maps/map-azerbaijan	High
+AZO	azores	maps/map-azores	Very High
+BHR	bahrain	maps/map-bahrain	Very High
+BGD	bangladesh	maps/map-bangladesh	Medium
+BRB	barbados	maps/map-barbados	High
+BLR	belarus	maps/map-belarus	High
+BEL	belgium	maps/map-belgium	Very High
+BLZ	belize	maps/map-belize	High
+BEN	benin	maps/map-benin	Low
+BMU	bermuda	maps/map-bermuda	Low
+BTN	bhutan	maps/map-bhutan	Medium
+BOL	bolivia	maps/map-bolivia	Medium
+BES	bonaire	maps/map-bonaire	Low
+BIH	bosnia-and-herzegovina	maps/map-bosnia-and-herzegovina	Low
+BWA	botswana	maps/map-botswana	Medium
+BRA	brazil	maps/map-brazil	High
+IOT	british-indian-ocean-territory	maps/map-british-indian-ocean-territory	Medium
+VGB	british-virgin-islands	maps/map-british-virgin-islands	Low
+BRN	brunei	maps/map-brunei	Very High
+BGR	bulgaria	maps/map-bulgaria	High
+BFA	burkina-faso	maps/map-burkina-faso	High
+MMR	burma	maps/map-burma	Low
+BDI	burundi	maps/map-burundi	Low
+KHM	cambodia	maps/map-cambodia	Medium
+CMR	cameroon	maps/map-cameroon	Low
+CAN	canada	maps/map-canada	Very High
+CAI	canary-islands	maps/map-canary-islands	Low
+CPV	cape-verde	maps/map-cape-verde	Medium
+CYM	cayman-islands	maps/map-cayman-islands	Low
+CAF	central-african-republic	maps/map-central-african-republic	Low
+TCD	chad	maps/map-chad	Low
+CHL	chile	maps/map-chile	Very High
+CHN	china	maps/map-china	High
+CXR	christmas-island	maps/map-christmas-island	Low
+CCK	cocos-islands	maps/map-cocos-islands	Low
+COL	colombia	maps/map-colombia	High
+COM	comoros	maps/map-comoros	Low
+COG	congo	maps/map-congo	Medium
+COK	cook-islands	maps/map-cook-islands	Low
+CRI	costa-rica	maps/map-costa-rica	High
+HRV	croatia	maps/map-croatia	Very High
+CUB	cuba	maps/map-cuba	High
+CUW	curacao	maps/map-curacao	Low
+CYP	cyprus	maps/map-cyprus	Very High
+CZE	czech-republic	maps/map-czech-republic	Very High
+COD	democratic-republic-of-congo	maps/map-democratic-republic-of-congo	Low
+DNK	denmark	maps/map-denmark	Very High
+DJI	djibouti	maps/map-djibouti	Low
+DMA	dominica	maps/map-dominica	High
+DOM	dominican-republic	maps/map-dominican-republic	High
+EAS	easter-island	maps/map-easter-island	Low
+TLS	east-timor	maps/map-east-timor	Medium
+ECU	ecuador	maps/map-ecuador	High
+EGY	egypt	maps/map-egypt	Medium
+SLV	el-salvador	maps/map-el-salvador	Medium
+GNQ	equatorial-guinea	maps/map-equatorial-guinea	Medium
+ERI	eritrea	maps/map-eritrea	Low
+EST	estonia	maps/map-estonia	Very High
+ETH	ethiopia	maps/map-ethiopia	Low
+FLK	falkland-islands	maps/map-falkland-islands	High
+FRO	faroe-island	maps/map-faroe-island	Low
+FJI	fiji	maps/map-fiji	High
+FIN	finland	maps/map-finland	Very High
+FRA	france	maps/map-france	Very High
+GUF	french-guiana	maps/map-french-guiana	Low
+PYF	french-polynesia	maps/map-french-polynesia	Low
+GAB	gabon	maps/map-gabon	Medium
+GEO	georgia	maps/map-georgia	High
+DEU	germany	maps/map-germany	Very High
+GHA	ghana	maps/map-ghana	Medium
+GIB	gibraltar	maps/map-gibraltar	Very High
+GRC	greece	maps/map-greece	Very High
+GRL	greenland	maps/map-greenland	Very High
+GRD	grenada	maps/map-grenada	High
+GLP	guadeloupe	maps/map-guadeloupe	High
+GUM	guam	maps/map-guam	Low
+GTM	guatemala	maps/map-guatemala	Medium
+GIN	guinea	maps/map-guinea	Low
+GNB	guinea-bissau	maps/map-guinea-bissau	Low
+GUY	guyana	maps/map-guyana	Medium
+HTI	haiti	maps/map-haiti	Low
+HND	honduras	maps/map-honduras	Medium
+HKG	hong-kong-sar	maps/map-hong-kong-sar	Very High
+HUN	hungary	maps/map-hungary	Very High
+ISL	iceland	maps/map-iceland	Very High
+IND	india	maps/map-india	Medium
+IDN	indonesia	maps/map-indonesia	High
+IRN	iran	maps/map-iran	High
+IRQ	iraq	maps/map-iraq	Medium
+IRL	ireland	maps/map-ireland	Very High
+ISR	israel	maps/map-israel	Very High
+ITA	italy	maps/map-italy	Very High
+CIV	ivory-coast	maps/map-ivory-coast	Low
+JAM	jamaica	maps/map-jamaica	High
+JPN	japan	maps/map-japan	Very High
+JOR	jordan	maps/map-jordan	High
+KAZ	kazakhstan	maps/map-kazakhstan	High
+KEN	kenya	maps/map-kenya	Medium
+KIR	kiribati	maps/map-kiribati	Medium
+KOS	kosovo	maps/map-kosovo	Low
+KWT	kuwait	maps/map-kuwait	Very High
+KGZ	kyrgyzstan	maps/map-kyrgyzstan	Medium
+LAO	laos	maps/map-laos	Medium
+LVA	latvia	maps/map-latvia	Very High
+LBN	lebanon	maps/map-lebanon	High
+LSO	lesotho	maps/map-lesotho	Low
+LBR	liberia	maps/map-liberia	Low
+LBY	libya	maps/map-libya	High
+LIE	liechtenstein	maps/map-liechtenstein	Very High
+LTU	lithuania	maps/map-lithuania	Very High
+LUX	luxembourg	maps/map-luxembourg	Very High
+MAC	macau-sar	maps/map-macau-sar	Low
+MKD	macedonia	maps/map-macedonia	High
+MDG	madagascar	maps/map-madagascar	Low
+MAD	maderia-islands	maps/map-maderia-islands	High
+MWI	malawi	maps/map-malawi	Low
+MYS	malaysia	maps/map-malaysia	High
+MDV	maldives	maps/map-maldives	High
+MLI	mali	maps/map-mali	Low
+MLT	malta	maps/map-malta	Very High
+MHL	marshall-islands	maps/map-marshall-islands	High
+MTQ	martinique	maps/map-martinique	High
+MRT	mauritania	maps/map-mauritania	
+MUS	mauritius	maps/map-mauritius	High
+MYT	mayotte	maps/map-mayotte	Low
+MEX	mexico	maps/map-mexico	High
+FSM	micronesia	maps/map-micronesia	Medium
+MDA	moldova	maps/map-moldova	Medium
+MCO	monaco	maps/map-monaco	High
+MNG	mongolia	maps/map-mongolia	High
+MNE	montenegro	maps/map-montenegro	Very High
+MSR	montserrat	maps/map-montserrat	High
+MAR	morocco	maps/map-morocco	Medium
+MOZ	mozambique	maps/map-mozambique	Low
+NAM	namibia	maps/map-namibia	Medium
+NRU	nauru	maps/map-nauru	Low
+NPL	nepal	maps/map-nepal	Medium
+NLD	netherlands	maps/map-netherlands	Very High
+NCL	new-caledonia	maps/map-new-caledonia	Low
+NZL	new-zealand	maps/map-new-zealand	Very High
+NIC	nicaragua	maps/map-nicaragua	Medium
+NER	niger	maps/map-niger	Low
+NGA	nigeria	maps/map-nigeria	Low
+NIU	niue	maps/map-niue	Low
+NFK	norfolk-island	maps/map-norfolk-island	High
+MNP	northern-mariana-islands	maps/map-northern-mariana-islands	High
+PRK	north-korea	maps/map-north-korea	Low
+NOR	norway	maps/map-norway	Very High
+OMN	oman	maps/map-oman	High
+PAK	pakistan	maps/map-pakistan	Medium
+PLW	palau	maps/map-palau	Low
+PAN	panama	maps/map-panama	High
+PNG	papua-new-guinea	maps/map-papua-new-guinea	Low
+PRY	paraguay	maps/map-paraguay	Medium
+PER	peru	maps/map-peru	High
+PHL	philippines	maps/map-philippines	Medium
+PCN	pitcairn-islands	maps/map-pitcairn-islands	High
+POL	poland	maps/map-poland	Very High
+PRT	portugal	maps/map-portugal	Very High
+PRI	puerto-rico	maps/map-puerto-rico	Very High
+QAT	qatar	maps/map-qatar	Very High
+REU	reunion	maps/map-reunion	Low
+ROU	romania	maps/map-romania	Very High
+RUS	russia	maps/map-russia	Very High
+RWA	rwanda	maps/map-rwanda	Low
+SAB	saba	maps/map-saba	Low
+BLM	saint-barthelemy	maps/map-saint-barthelemy	High
+SHN	saint-helena	maps/map-saint-helena	High
+LCA	saint-lucia	maps/map-saint-lucia	High
+MAF	saint-martin	maps/map-saint-martin	Medium
+SPM	saint-pierre-and-miquelon	maps/map-saint-pierre-and-miquelon	High
+VCT	saint-vincent-and-the-grenadines	maps/map-saint-vincent-and-the-grenadines	High
+WSM	samoa	maps/map-samoa	High
+SMR	san-marino	maps/map-san-marino	Very High
+STP	sao-tome-and-principe	maps/map-sao-tome-and-principe	Medium
+SAU	saudi-arabia	maps/map-saudi-arabia	Very High
+SEN	senegal	maps/map-senegal	Low
+SRB	serbia	maps/map-serbia	High
+SYC	seychelles	maps/map-seychelles	High
+SLE	sierra-leone	maps/map-sierra-leone	Low
+SGP	singapore	maps/map-singapore	Very High
+STT	sint-eustatius	maps/map-sint-eustatius	Medium
+SXM	sint-maarten	maps/map-sint-maarten	High
+SVK	slovakia	maps/map-slovakia	Very High
+SVN	slovenia	maps/map-slovenia	Very High
+SLB	solomon-islands	maps/map-solomon-islands	Low
+SOM	somalia	maps/map-somalia	Low
+ZAF	south-africa	maps/map-south-africa	Medium
+SGS	south-georgia-south-sandwich-islands	maps/map-south-georgia-south-sandwich-islands	High
+KOR	south-korea	maps/map-south-korea	Very High
+SSD	south-sudan	maps/map-south-sudan	Low
+ESP	spain	maps/map-spain	Very High
+LKA	sri-lanka	maps/map-sri-lanka	High
+KNA	st-kitts-and-nevis	maps/map-st-kitts-and-nevis	High
+SDN	sudan	maps/map-sudan	Low
+SUR	suriname	maps/map-suriname	High
+SWZ	swaziland	maps/map-swaziland	Low
+SWE	sweden	maps/map-sweden	Very High
+CHE	switzerland	maps/map-switzerland	Very High
+SYR	syria	maps/map-syria	Low
+TWN	taiwan	maps/map-taiwan	Very High
+TJK	tajikistan	maps/map-tajikistan	Medium
+TZA	tanzania	maps/map-tanzania	Low
+THA	thailand	maps/map-thailand	High
+BHS	the-bahamas	maps/map-the-bahamas	High
+GMB	the-gambia	maps/map-the-gambia	Low
+TGO	togo	maps/map-togo	Low
+TKL	tokelau	maps/map-tokelau	Low
+TON	tonga	maps/map-tonga	High
+TTO	trinidad-and-tobago	maps/map-trinidad-and-tobago	High
+TUN	tunisia	maps/map-tunisia	High
+TUR	turkey	maps/map-turkey	High
+TKM	turkmenistan	maps/map-turkmenistan	Medium
+TCA	turks-and-caicos	maps/map-turks-and-caicos	High
+TUV	tuvalu	maps/map-tuvalu	Low
+UGA	uganda	maps/map-uganda	Low
+UKR	ukraine	maps/map-ukraine	High
+ARE	united-arab-emirates	maps/map-united-arab-emirates	Very High
+GBR	united-kingdom	maps/map-united-kingdom	Very High
+USA	united-states	maps/map-united-states	Very High
+URY	uruguay	maps/map-uruguay	High
+VIR	usvirgin-islands	maps/map-usvirgin-islands	High
+UZB	uzbekistan	maps/map-uzbekistan	High
+VUT	vanuatu	maps/map-vanuatu	Medium
+VEN	venezuela	maps/map-venezuela	High
+VNM	vietnam	maps/map-vietnam	Medium
+WAK	wake-island	maps/map-wake-island	High
+ESH	western-sahara	maps/map-western-sahara	Low
+YEM	yemen	maps/map-yemen	Low
+ZMB	zambia	maps/map-zambia	Medium
+ZWE	zimbabwe	maps/map-zimbabwe	Low

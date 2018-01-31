@@ -1,0 +1,22 @@
+idTransmission	Trans_name
+0	varied 
+1	Fecal-oral route (contaminated food and water) 
+2	Person-to-person contact 
+3	Contact with blood and other body fluids: 
+4	Unprotected sex 
+5	Injection drug use 
+6	Contaminated transfusions 
+7	Exposure to human blood 
+8	Contaminated tattoo and piercing equipment 
+9	Bite of infected mosquito (female Anopheles) 
+10	Oral transmission 
+11	Fecal-oral route (person-to-person and contaminated food and water) 
+12	Mammal bites (including dogs, bats, other carnivores) 
+13	Bite of infected mosquitoes 
+14	Mammal bites (bats and other carnivores). Canine rabies is not present. 
+15	Bites from bats (rabies is not present in canines or other mammals) 
+16	Mammal bites (including dogs, bats, other carnivores). Canine rabies is present but not a significant concern to travelers. 
+17	Bite of infected mosquitoes (primarily Culex) 
+18	Fecal-oral route (person-to-person contaminated food and water) 
+19	Bite of infected mosquito (femaleAnopheles) 
+20	Contaminated water

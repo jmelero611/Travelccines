@@ -1,0 +1,1442 @@
+disease	idCountry
+Routine vaccines	AFG
+Cholera	AFG
+Hepatitis A	AFG
+Hepatitis B	AFG
+Malaria	AFG
+Polio	AFG
+Rabies	AFG
+Typhoid	AFG
+Yellow Fever	AFG
+Routine vaccines	ALB
+Hepatitis A	ALB
+Hepatitis B	ALB
+Rabies	ALB
+Yellow Fever	ALB
+Routine vaccines	DZA
+Hepatitis A	DZA
+Hepatitis B	DZA
+Malaria	DZA
+Rabies	DZA
+Typhoid	DZA
+Yellow Fever	DZA
+Routine vaccines	ASM
+Hepatitis A	ASM
+Hepatitis B	ASM
+Typhoid	ASM
+Routine vaccines	AND
+Hepatitis A	AND
+Hepatitis B	AND
+Rabies	AND
+Routine vaccines	AGO
+Hepatitis A	AGO
+Hepatitis B	AGO
+Malaria	AGO
+Rabies	AGO
+Typhoid	AGO
+Yellow Fever	AGO
+Routine vaccines	AIA
+Hepatitis A	AIA
+Hepatitis B	AIA
+Rabies	AIA
+Typhoid	AIA
+Routine vaccines	ATG
+Hepatitis A	ATG
+Hepatitis B	ATG
+Rabies	ATG
+Typhoid	ATG
+Yellow Fever	ATG
+Routine vaccines	ARG
+Hepatitis A	ARG
+Hepatitis B	ARG
+Rabies	ARG
+Typhoid	ARG
+Yellow Fever	ARG
+Routine vaccines	ARM
+Hepatitis A	ARM
+Hepatitis B	ARM
+Rabies	ARM
+Routine vaccines	ABW
+Hepatitis A	ABW
+Hepatitis B	ABW
+Rabies	ABW
+Typhoid	ABW
+Routine vaccines	AUS
+Hepatitis A	AUS
+Hepatitis B	AUS
+Japanese Encephalitis	AUS
+Rabies	AUS
+Yellow Fever	AUS
+Routine vaccines	AUT
+Hepatitis A	AUT
+Hepatitis B	AUT
+Rabies	AUT
+Routine vaccines	AZE
+Hepatitis A	AZE
+Hepatitis B	AZE
+Malaria	AZE
+Rabies	AZE
+Routine vaccines	AZO
+Hepatitis A	AZO
+Hepatitis B	AZO
+Rabies	AZO
+Routine vaccines	BHR
+Hepatitis A	BHR
+Hepatitis B	BHR
+Rabies	BHR
+Typhoid	BHR
+Yellow Fever	BHR
+Routine vaccines	BGD
+Cholera	BGD
+Hepatitis A	BGD
+Hepatitis B	BGD
+Japanese Encephalitis	BGD
+Malaria	BGD
+Rabies	BGD
+Typhoid	BGD
+Yellow Fever	BGD
+Routine vaccines	BRB
+Hepatitis A	BRB
+Hepatitis B	BRB
+Rabies	BRB
+Typhoid	BRB
+Yellow Fever	BRB
+Routine vaccines	BLR
+Hepatitis A	BLR
+Hepatitis B	BLR
+Rabies	BLR
+Routine vaccines	BEL
+Hepatitis A	BEL
+Hepatitis B	BEL
+Rabies	BEL
+Routine vaccines	BLZ
+Hepatitis A	BLZ
+Hepatitis B	BLZ
+Malaria	BLZ
+Rabies	BLZ
+Typhoid	BLZ
+Yellow Fever	BLZ
+Routine vaccines	BEN
+Cholera	BEN
+Hepatitis A	BEN
+Hepatitis B	BEN
+Malaria	BEN
+Meningitis (Meningococcal disease)	BEN
+Rabies	BEN
+Typhoid	BEN
+Yellow Fever	BEN
+Routine vaccines	BMU
+Hepatitis A	BMU
+Hepatitis B	BMU
+Rabies	BMU
+Typhoid	BMU
+Routine vaccines	BTN
+Hepatitis A	BTN
+Hepatitis B	BTN
+Japanese Encephalitis	BTN
+Malaria	BTN
+Rabies	BTN
+Typhoid	BTN
+Yellow Fever	BTN
+Routine vaccines	BOL
+Hepatitis A	BOL
+Hepatitis B	BOL
+Malaria	BOL
+Rabies	BOL
+Typhoid	BOL
+Yellow Fever	BOL
+Routine vaccines	BES
+Hepatitis A	BES
+Hepatitis B	BES
+Rabies	BES
+Typhoid	BES
+Yellow Fever	BES
+Routine vaccines	BIH
+Hepatitis A	BIH
+Hepatitis B	BIH
+Rabies	BIH
+Routine vaccines	BWA
+Hepatitis A	BWA
+Hepatitis B	BWA
+Malaria	BWA
+Rabies	BWA
+Typhoid	BWA
+Yellow Fever	BWA
+Routine vaccines	BRA
+Hepatitis A	BRA
+Hepatitis B	BRA
+Malaria	BRA
+Rabies	BRA
+Typhoid	BRA
+Yellow Fever	BRA
+Routine vaccines	IOT
+Hepatitis A	IOT
+Hepatitis B	IOT
+Typhoid	IOT
+Routine vaccines	VGB
+Hepatitis A	VGB
+Hepatitis B	VGB
+Rabies	VGB
+Typhoid	VGB
+Routine vaccines	BRN
+Hepatitis A	BRN
+Hepatitis B	BRN
+Japanese Encephalitis	BRN
+Rabies	BRN
+Typhoid	BRN
+Yellow Fever	BRN
+Routine vaccines	BGR
+Hepatitis A	BGR
+Hepatitis B	BGR
+Rabies	BGR
+Routine vaccines	BFA
+Hepatitis A	BFA
+Hepatitis B	BFA
+Malaria	BFA
+Meningitis (Meningococcal disease)	BFA
+Rabies	BFA
+Typhoid	BFA
+Yellow Fever	BFA
+Routine vaccines	MMR
+Cholera	MMR
+Hepatitis A	MMR
+Hepatitis B	MMR
+Japanese Encephalitis	MMR
+Malaria	MMR
+Rabies	MMR
+Typhoid	MMR
+Yellow Fever	MMR
+Routine vaccines	BDI
+Cholera	BDI
+Hepatitis A	BDI
+Hepatitis B	BDI
+Malaria	BDI
+Rabies	BDI
+Typhoid	BDI
+Yellow Fever	BDI
+Routine vaccines	KHM
+Hepatitis A	KHM
+Hepatitis B	KHM
+Japanese Encephalitis	KHM
+Malaria	KHM
+Rabies	KHM
+Typhoid	KHM
+Yellow Fever	KHM
+Routine vaccines	CMR
+Cholera	CMR
+Hepatitis A	CMR
+Hepatitis B	CMR
+Malaria	CMR
+Meningitis (Meningococcal disease)	CMR
+Polio	CMR
+Rabies	CMR
+Typhoid	CMR
+Yellow Fever	CMR
+Routine vaccines	CAN
+Hepatitis A	CAN
+Hepatitis B	CAN
+Rabies	CAN
+Routine vaccines	CAI
+Hepatitis A	CAI
+Hepatitis B	CAI
+Rabies	CAI
+Routine vaccines	CPV
+Hepatitis A	CPV
+Hepatitis B	CPV
+Malaria	CPV
+Rabies	CPV
+Typhoid	CPV
+Yellow Fever	CPV
+Routine vaccines	CYM
+Hepatitis A	CYM
+Hepatitis B	CYM
+Rabies	CYM
+Typhoid	CYM
+Routine vaccines	CAF
+Cholera	CAF
+Hepatitis A	CAF
+Hepatitis B	CAF
+Malaria	CAF
+Meningitis (Meningococcal disease)	CAF
+Rabies	CAF
+Typhoid	CAF
+Yellow Fever	CAF
+Routine vaccines	TCD
+Cholera	TCD
+Hepatitis A	TCD
+Hepatitis B	TCD
+Malaria	TCD
+Meningitis (Meningococcal disease)	TCD
+Polio	TCD
+Rabies	TCD
+Typhoid	TCD
+Yellow Fever	TCD
+Routine vaccines	CHL
+Hepatitis A	CHL
+Hepatitis B	CHL
+Rabies	CHL
+Typhoid	CHL
+Routine vaccines	CHN
+Hepatitis A	CHN
+Hepatitis B	CHN
+Japanese Encephalitis	CHN
+Malaria	CHN
+Polio	CHN
+Rabies	CHN
+Typhoid	CHN
+Yellow Fever	CHN
+Routine vaccines	CXR
+Hepatitis A	CXR
+Hepatitis B	CXR
+Typhoid	CXR
+Yellow Fever	CXR
+Routine vaccines	CCK
+Hepatitis A	CCK
+Hepatitis B	CCK
+Typhoid	CCK
+Yellow Fever	CCK
+Routine vaccines	COL
+Hepatitis A	COL
+Hepatitis B	COL
+Malaria	COL
+Rabies	COL
+Typhoid	COL
+Yellow Fever	COL
+Routine vaccines	COM
+Hepatitis A	COM
+Hepatitis B	COM
+Malaria	COM
+Rabies	COM
+Typhoid	COM
+Routine vaccines	COG
+Hepatitis A	COG
+Hepatitis B	COG
+Malaria	COG
+Rabies	COG
+Typhoid	COG
+Yellow Fever	COG
+Routine vaccines	COK
+Hepatitis A	COK
+Hepatitis B	COK
+Typhoid	COK
+Routine vaccines	CRI
+Hepatitis A	CRI
+Hepatitis B	CRI
+Malaria	CRI
+Rabies	CRI
+Typhoid	CRI
+Yellow Fever	CRI
+Routine vaccines	HRV
+Hepatitis A	HRV
+Hepatitis B	HRV
+Rabies	HRV
+Routine vaccines	CUB
+Hepatitis A	CUB
+Hepatitis B	CUB
+Rabies	CUB
+Typhoid	CUB
+Routine vaccines	CUW
+Hepatitis A	CUW
+Hepatitis B	CUW
+Rabies	CUW
+Typhoid	CUW
+Yellow Fever	CUW
+Routine vaccines	CYP
+Hepatitis A	CYP
+Hepatitis B	CYP
+Malaria	CYP
+Rabies	CYP
+Routine vaccines	CZE
+Hepatitis A	CZE
+Hepatitis B	CZE
+Rabies	CZE
+Routine vaccines	COD
+Cholera	COD
+Hepatitis A	COD
+Hepatitis B	COD
+Malaria	COD
+Polio	COD
+Rabies	COD
+Typhoid	COD
+Yellow Fever	COD
+Routine vaccines	DNK
+Hepatitis A	DNK
+Hepatitis B	DNK
+Rabies	DNK
+Routine vaccines	DJI
+Hepatitis A	DJI
+Hepatitis B	DJI
+Malaria	DJI
+Rabies	DJI
+Typhoid	DJI
+Yellow Fever	DJI
+Routine vaccines	DMA
+Hepatitis A	DMA
+Hepatitis B	DMA
+Rabies	DMA
+Typhoid	DMA
+Yellow Fever	DMA
+Routine vaccines	DOM
+Cholera	DOM
+Hepatitis A	DOM
+Hepatitis B	DOM
+Malaria	DOM
+Rabies	DOM
+Typhoid	DOM
+Routine vaccines	EAS
+Hepatitis A	EAS
+Hepatitis B	EAS
+Typhoid	EAS
+Routine vaccines	TLS
+Hepatitis A	TLS
+Hepatitis B	TLS
+Japanese Encephalitis	TLS
+Malaria	TLS
+Rabies	TLS
+Typhoid	TLS
+Yellow Fever	TLS
+Routine vaccines	ECU
+Hepatitis A	ECU
+Hepatitis B	ECU
+Malaria	ECU
+Rabies	ECU
+Typhoid	ECU
+Yellow Fever	ECU
+Routine vaccines	EGY
+Hepatitis A	EGY
+Hepatitis B	EGY
+Rabies	EGY
+Typhoid	EGY
+Yellow Fever	EGY
+Routine vaccines	SLV
+Hepatitis A	SLV
+Hepatitis B	SLV
+Malaria	SLV
+Rabies	SLV
+Typhoid	SLV
+Yellow Fever	SLV
+Routine vaccines	GNQ
+Hepatitis A	GNQ
+Hepatitis B	GNQ
+Malaria	GNQ
+Rabies	GNQ
+Typhoid	GNQ
+Yellow Fever	GNQ
+Routine vaccines	ERI
+Hepatitis A	ERI
+Hepatitis B	ERI
+Malaria	ERI
+Meningitis (Meningococcal disease)	ERI
+Rabies	ERI
+Typhoid	ERI
+Yellow Fever	ERI
+Routine vaccines	EST
+Hepatitis A	EST
+Hepatitis B	EST
+Rabies	EST
+Routine vaccines	ETH
+Cholera	ETH
+Hepatitis A	ETH
+Hepatitis B	ETH
+Malaria	ETH
+Meningitis (Meningococcal disease)	ETH
+Rabies	ETH
+Typhoid	ETH
+Yellow Fever	ETH
+Routine vaccines	FLK
+Hepatitis A	FLK
+Hepatitis B	FLK
+Typhoid	FLK
+Routine vaccines	FRO
+Hepatitis A	FRO
+Hepatitis B	FRO
+Rabies	FRO
+Routine vaccines	FJI
+Hepatitis A	FJI
+Hepatitis B	FJI
+Typhoid	FJI
+Yellow Fever	FJI
+Routine vaccines	FIN
+Hepatitis A	FIN
+Hepatitis B	FIN
+Rabies	FIN
+Routine vaccines	FRA
+Hepatitis A	FRA
+Hepatitis B	FRA
+Rabies	FRA
+Routine vaccines	GUF
+Hepatitis A	GUF
+Hepatitis B	GUF
+Malaria	GUF
+Rabies	GUF
+Typhoid	GUF
+Yellow Fever	GUF
+Routine vaccines	PYF
+Hepatitis A	PYF
+Hepatitis B	PYF
+Typhoid	PYF
+Yellow Fever	PYF
+Routine vaccines	GAB
+Hepatitis A	GAB
+Hepatitis B	GAB
+Malaria	GAB
+Rabies	GAB
+Typhoid	GAB
+Yellow Fever	GAB
+Routine vaccines	GEO
+Hepatitis A	GEO
+Hepatitis B	GEO
+Rabies	GEO
+Routine vaccines	DEU
+Hepatitis A	DEU
+Hepatitis B	DEU
+Rabies	DEU
+Routine vaccines	GHA
+Cholera	GHA
+Hepatitis A	GHA
+Hepatitis B	GHA
+Malaria	GHA
+Meningitis (Meningococcal disease)	GHA
+Rabies	GHA
+Typhoid	GHA
+Yellow Fever	GHA
+Routine vaccines	GIB
+Hepatitis A	GIB
+Hepatitis B	GIB
+Rabies	GIB
+Routine vaccines	GRC
+Hepatitis A	GRC
+Hepatitis B	GRC
+Rabies	GRC
+Routine vaccines	GRL
+Hepatitis A	GRL
+Hepatitis B	GRL
+Rabies	GRL
+Routine vaccines	GRD
+Hepatitis A	GRD
+Hepatitis B	GRD
+Rabies	GRD
+Typhoid	GRD
+Yellow Fever	GRD
+Routine vaccines	GLP
+Hepatitis A	GLP
+Hepatitis B	GLP
+Rabies	GLP
+Typhoid	GLP
+Yellow Fever	GLP
+Routine vaccines	GUM
+Hepatitis A	GUM
+Hepatitis B	GUM
+Typhoid	GUM
+Routine vaccines	GTM
+Hepatitis A	GTM
+Hepatitis B	GTM
+Malaria	GTM
+Rabies	GTM
+Typhoid	GTM
+Yellow Fever	GTM
+Routine vaccines	GIN
+Hepatitis A	GIN
+Hepatitis B	GIN
+Malaria	GIN
+Meningitis (Meningococcal disease)	GIN
+Rabies	GIN
+Typhoid	GIN
+Yellow Fever	GIN
+Routine vaccines	GNB
+Hepatitis A	GNB
+Hepatitis B	GNB
+Malaria	GNB
+Meningitis (Meningococcal disease)	GNB
+Rabies	GNB
+Typhoid	GNB
+Yellow Fever	GNB
+Routine vaccines	GUY
+Hepatitis A	GUY
+Hepatitis B	GUY
+Malaria	GUY
+Rabies	GUY
+Typhoid	GUY
+Yellow Fever	GUY
+Routine vaccines	HTI
+Cholera	HTI
+Hepatitis A	HTI
+Hepatitis B	HTI
+Malaria	HTI
+Rabies	HTI
+Typhoid	HTI
+Yellow Fever	HTI
+Routine vaccines	HND
+Hepatitis A	HND
+Hepatitis B	HND
+Malaria	HND
+Rabies	HND
+Typhoid	HND
+Yellow Fever	HND
+Routine vaccines	HKG
+Hepatitis A	HKG
+Hepatitis B	HKG
+Rabies	HKG
+Typhoid	HKG
+Routine vaccines	HUN
+Hepatitis A	HUN
+Hepatitis B	HUN
+Rabies	HUN
+Routine vaccines	ISL
+Hepatitis A	ISL
+Hepatitis B	ISL
+Rabies	ISL
+Routine vaccines	IND
+Cholera	IND
+Hepatitis A	IND
+Hepatitis B	IND
+Japanese Encephalitis	IND
+Malaria	IND
+Rabies	IND
+Typhoid	IND
+Yellow Fever	IND
+Routine vaccines	IDN
+Hepatitis A	IDN
+Hepatitis B	IDN
+Japanese Encephalitis	IDN
+Malaria	IDN
+Rabies	IDN
+Typhoid	IDN
+Yellow Fever	IDN
+Routine vaccines	IRN
+Hepatitis A	IRN
+Hepatitis B	IRN
+Malaria	IRN
+Polio	IRN
+Rabies	IRN
+Typhoid	IRN
+Yellow Fever	IRN
+Routine vaccines	IRQ
+Cholera	IRQ
+Hepatitis A	IRQ
+Hepatitis B	IRQ
+Rabies	IRQ
+Typhoid	IRQ
+Yellow Fever	IRQ
+Routine vaccines	IRL
+Hepatitis A	IRL
+Hepatitis B	IRL
+Rabies	IRL
+Routine vaccines	ISR
+Hepatitis A	ISR
+Hepatitis B	ISR
+Rabies	ISR
+Typhoid	ISR
+Routine vaccines	ITA
+Hepatitis A	ITA
+Hepatitis B	ITA
+Rabies	ITA
+Routine vaccines	CIV
+Cholera	CIV
+Hepatitis A	CIV
+Hepatitis B	CIV
+Malaria	CIV
+Meningitis (Meningococcal disease)	CIV
+Rabies	CIV
+Typhoid	CIV
+Yellow Fever	CIV
+Routine vaccines	JAM
+Hepatitis A	JAM
+Hepatitis B	JAM
+Rabies	JAM
+Typhoid	JAM
+Yellow Fever	JAM
+Routine vaccines	JPN
+Hepatitis A	JPN
+Hepatitis B	JPN
+Japanese Encephalitis	JPN
+Rabies	JPN
+Routine vaccines	JOR
+Hepatitis A	JOR
+Hepatitis B	JOR
+Rabies	JOR
+Typhoid	JOR
+Yellow Fever	JOR
+Routine vaccines	KAZ
+Hepatitis A	KAZ
+Hepatitis B	KAZ
+Rabies	KAZ
+Typhoid	KAZ
+Yellow Fever	KAZ
+Routine vaccines	KEN
+Cholera	KEN
+Hepatitis A	KEN
+Hepatitis B	KEN
+Malaria	KEN
+Meningitis (Meningococcal disease)	KEN
+Rabies	KEN
+Typhoid	KEN
+Yellow Fever	KEN
+Routine vaccines	KIR
+Hepatitis A	KIR
+Hepatitis B	KIR
+Typhoid	KIR
+Yellow Fever	KIR
+Routine vaccines	KOS
+Hepatitis A	KOS
+Hepatitis B	KOS
+Rabies	KOS
+Routine vaccines	KWT
+Hepatitis A	KWT
+Hepatitis B	KWT
+Rabies	KWT
+Typhoid	KWT
+Routine vaccines	KGZ
+Hepatitis A	KGZ
+Hepatitis B	KGZ
+Rabies	KGZ
+Typhoid	KGZ
+Yellow Fever	KGZ
+Routine vaccines	LAO
+Hepatitis A	LAO
+Hepatitis B	LAO
+Japanese Encephalitis	LAO
+Malaria	LAO
+Rabies	LAO
+Typhoid	LAO
+Yellow Fever	LAO
+Routine vaccines	LVA
+Hepatitis A	LVA
+Hepatitis B	LVA
+Rabies	LVA
+Routine vaccines	LBN
+Hepatitis A	LBN
+Hepatitis B	LBN
+Rabies	LBN
+Typhoid	LBN
+Routine vaccines	LSO
+Hepatitis A	LSO
+Hepatitis B	LSO
+Rabies	LSO
+Typhoid	LSO
+Yellow Fever	LSO
+Routine vaccines	LBR
+Hepatitis A	LBR
+Hepatitis B	LBR
+Malaria	LBR
+Rabies	LBR
+Typhoid	LBR
+Yellow Fever	LBR
+Routine vaccines	LBY
+Hepatitis A	LBY
+Hepatitis B	LBY
+Rabies	LBY
+Typhoid	LBY
+Yellow Fever	LBY
+Routine vaccines	LIE
+Hepatitis A	LIE
+Hepatitis B	LIE
+Rabies	LIE
+Routine vaccines	LTU
+Hepatitis A	LTU
+Hepatitis B	LTU
+Rabies	LTU
+Routine vaccines	LUX
+Hepatitis A	LUX
+Hepatitis B	LUX
+Rabies	LUX
+Routine vaccines	MAC
+Hepatitis A	MAC
+Hepatitis B	MAC
+Rabies	MAC
+Typhoid	MAC
+Routine vaccines	MKD
+Hepatitis A	MKD
+Hepatitis B	MKD
+Rabies	MKD
+Routine vaccines	MDG
+Hepatitis A	MDG
+Hepatitis B	MDG
+Malaria	MDG
+Rabies	MDG
+Typhoid	MDG
+Yellow Fever	MDG
+Routine vaccines	MAD
+Hepatitis A	MAD
+Hepatitis B	MAD
+Rabies	MAD
+Routine vaccines	MWI
+Cholera	MWI
+Hepatitis A	MWI
+Hepatitis B	MWI
+Malaria	MWI
+Rabies	MWI
+Typhoid	MWI
+Yellow Fever	MWI
+Routine vaccines	MYS
+Cholera	MYS
+Hepatitis A	MYS
+Hepatitis B	MYS
+Japanese Encephalitis	MYS
+Malaria	MYS
+Rabies	MYS
+Typhoid	MYS
+Yellow Fever	MYS
+Routine vaccines	MDV
+Hepatitis A	MDV
+Hepatitis B	MDV
+Typhoid	MDV
+Yellow Fever	MDV
+Routine vaccines	MLI
+Hepatitis A	MLI
+Hepatitis B	MLI
+Malaria	MLI
+Meningitis (Meningococcal disease)	MLI
+Rabies	MLI
+Typhoid	MLI
+Yellow Fever	MLI
+Routine vaccines	MLT
+Hepatitis A	MLT
+Hepatitis B	MLT
+Rabies	MLT
+Yellow Fever	MLT
+Routine vaccines	MHL
+Hepatitis A	MHL
+Hepatitis B	MHL
+Typhoid	MHL
+Routine vaccines	MTQ
+Hepatitis A	MTQ
+Hepatitis B	MTQ
+Rabies	MTQ
+Typhoid	MTQ
+Yellow Fever	MTQ
+Routine vaccines	MRT
+Hepatitis A	MRT
+Hepatitis B	MRT
+Malaria	MRT
+Rabies	MRT
+Typhoid	MRT
+Yellow Fever	MRT
+Routine vaccines	MUS
+Hepatitis A	MUS
+Hepatitis B	MUS
+Rabies	MUS
+Typhoid	MUS
+Yellow Fever	MUS
+Routine vaccines	MYT
+Hepatitis A	MYT
+Hepatitis B	MYT
+Malaria	MYT
+Rabies	MYT
+Typhoid	MYT
+Yellow Fever	MYT
+Routine vaccines	MEX
+Hepatitis A	MEX
+Hepatitis B	MEX
+Malaria	MEX
+Rabies	MEX
+Typhoid	MEX
+Routine vaccines	FSM
+Hepatitis A	FSM
+Hepatitis B	FSM
+Typhoid	FSM
+Routine vaccines	MDA
+Hepatitis A	MDA
+Hepatitis B	MDA
+Rabies	MDA
+Routine vaccines	MCO
+Hepatitis A	MCO
+Hepatitis B	MCO
+Rabies	MCO
+Routine vaccines	MNG
+Hepatitis A	MNG
+Hepatitis B	MNG
+Rabies	MNG
+Typhoid	MNG
+Routine vaccines	MNE
+Hepatitis A	MNE
+Hepatitis B	MNE
+Rabies	MNE
+Routine vaccines	MSR
+Hepatitis A	MSR
+Hepatitis B	MSR
+Rabies	MSR
+Typhoid	MSR
+Yellow Fever	MSR
+Routine vaccines	MAR
+Hepatitis A	MAR
+Hepatitis B	MAR
+Rabies	MAR
+Typhoid	MAR
+Routine vaccines	MOZ
+Cholera	MOZ
+Hepatitis A	MOZ
+Hepatitis B	MOZ
+Malaria	MOZ
+Rabies	MOZ
+Typhoid	MOZ
+Yellow Fever	MOZ
+Routine vaccines	NAM
+Hepatitis A	NAM
+Hepatitis B	NAM
+Malaria	NAM
+Rabies	NAM
+Typhoid	NAM
+Yellow Fever	NAM
+Routine vaccines	NRU
+Hepatitis A	NRU
+Hepatitis B	NRU
+Typhoid	NRU
+Yellow Fever	NRU
+Routine vaccines	NPL
+Hepatitis A	NPL
+Hepatitis B	NPL
+Japanese Encephalitis	NPL
+Malaria	NPL
+Rabies	NPL
+Typhoid	NPL
+Yellow Fever	NPL
+Routine vaccines	NLD
+Hepatitis A	NLD
+Hepatitis B	NLD
+Rabies	NLD
+Routine vaccines	NCL
+Hepatitis A	NCL
+Hepatitis B	NCL
+Typhoid	NCL
+Yellow Fever	NCL
+Routine vaccines	NZL
+Hepatitis A	NZL
+Hepatitis B	NZL
+Routine vaccines	NIC
+Hepatitis A	NIC
+Hepatitis B	NIC
+Malaria	NIC
+Rabies	NIC
+Typhoid	NIC
+Routine vaccines	NER
+Hepatitis A	NER
+Hepatitis B	NER
+Malaria	NER
+Polio	NER
+Rabies	NER
+Typhoid	NER
+Yellow Fever	NER
+Routine vaccines	NGA
+Cholera	NGA
+Hepatitis A	NGA
+Hepatitis B	NGA
+Malaria	NGA
+Meningitis (Meningococcal disease)	NGA
+Polio	NGA
+Rabies	NGA
+Typhoid	NGA
+Yellow Fever	NGA
+Routine vaccines	NIU
+Hepatitis A	NIU
+Hepatitis B	NIU
+Typhoid	NIU
+Yellow Fever	NIU
+Routine vaccines	NFK
+Hepatitis A	NFK
+Hepatitis B	NFK
+Typhoid	NFK
+Yellow Fever	NFK
+Routine vaccines	MNP
+Hepatitis A	MNP
+Hepatitis B	MNP
+Typhoid	MNP
+Routine vaccines	PRK
+Hepatitis A	PRK
+Hepatitis B	PRK
+Japanese Encephalitis	PRK
+Malaria	PRK
+Rabies	PRK
+Typhoid	PRK
+Yellow Fever	PRK
+Routine vaccines	NOR
+Hepatitis A	NOR
+Hepatitis B	NOR
+Rabies	NOR
+Routine vaccines	OMN
+Hepatitis A	OMN
+Hepatitis B	OMN
+Malaria	OMN
+Rabies	OMN
+Typhoid	OMN
+Yellow Fever	OMN
+Routine vaccines	PAK
+Hepatitis A	PAK
+Hepatitis B	PAK
+Japanese Encephalitis	PAK
+Malaria	PAK
+Polio	PAK
+Rabies	PAK
+Typhoid	PAK
+Yellow Fever	PAK
+Routine vaccines	PLW
+Hepatitis A	PLW
+Hepatitis B	PLW
+Typhoid	PLW
+Routine vaccines	PAN
+Hepatitis A	PAN
+Hepatitis B	PAN
+Malaria	PAN
+Rabies	PAN
+Typhoid	PAN
+Yellow Fever	PAN
+Routine vaccines	PNG
+Hepatitis A	PNG
+Hepatitis B	PNG
+Japanese Encephalitis	PNG
+Malaria	PNG
+Rabies	PNG
+Typhoid	PNG
+Routine vaccines	PRY
+Hepatitis A	PRY
+Hepatitis B	PRY
+Malaria	PRY
+Rabies	PRY
+Typhoid	PRY
+Yellow Fever	PRY
+Routine vaccines	PER
+Hepatitis A	PER
+Hepatitis B	PER
+Malaria	PER
+Rabies	PER
+Typhoid	PER
+Yellow Fever	PER
+Routine vaccines	PHL
+Hepatitis A	PHL
+Hepatitis B	PHL
+Japanese Encephalitis	PHL
+Malaria	PHL
+Rabies	PHL
+Typhoid	PHL
+Yellow Fever	PHL
+Routine vaccines	PCN
+Hepatitis A	PCN
+Hepatitis B	PCN
+Typhoid	PCN
+Yellow Fever	PCN
+Routine vaccines	POL
+Hepatitis A	POL
+Hepatitis B	POL
+Rabies	POL
+Routine vaccines	PRT
+Hepatitis A	PRT
+Hepatitis B	PRT
+Rabies	PRT
+Routine vaccines	PRI
+Hepatitis A	PRI
+Hepatitis B	PRI
+Rabies	PRI
+Typhoid	PRI
+Routine vaccines	QAT
+Hepatitis A	QAT
+Hepatitis B	QAT
+Rabies	QAT
+Typhoid	QAT
+Routine vaccines	REU
+Hepatitis A	REU
+Hepatitis B	REU
+Rabies	REU
+Typhoid	REU
+Yellow Fever	REU
+Routine vaccines	ROU
+Hepatitis A	ROU
+Hepatitis B	ROU
+Rabies	ROU
+Routine vaccines	RUS
+Hepatitis A	RUS
+Hepatitis B	RUS
+Japanese Encephalitis	RUS
+Rabies	RUS
+Routine vaccines	RWA
+Hepatitis A	RWA
+Hepatitis B	RWA
+Malaria	RWA
+Rabies	RWA
+Typhoid	RWA
+Yellow Fever	RWA
+Routine vaccines	SAB
+Hepatitis A	SAB
+Hepatitis B	SAB
+Rabies	SAB
+Typhoid	SAB
+Yellow Fever	SAB
+Routine vaccines	BLM
+Hepatitis A	BLM
+Hepatitis B	BLM
+Rabies	BLM
+Typhoid	BLM
+Yellow Fever	BLM
+Routine vaccines	SHN
+Hepatitis A	SHN
+Hepatitis B	SHN
+Rabies	SHN
+Typhoid	SHN
+Routine vaccines	LCA
+Hepatitis A	LCA
+Hepatitis B	LCA
+Rabies	LCA
+Typhoid	LCA
+Yellow Fever	LCA
+Routine vaccines	MAF
+Hepatitis A	MAF
+Hepatitis B	MAF
+Rabies	MAF
+Typhoid	MAF
+Yellow Fever	MAF
+Routine vaccines	SPM
+Hepatitis A	SPM
+Hepatitis B	SPM
+Rabies	SPM
+Routine vaccines	VCT
+Hepatitis A	VCT
+Hepatitis B	VCT
+Rabies	VCT
+Typhoid	VCT
+Yellow Fever	VCT
+Routine vaccines	WSM
+Hepatitis A	WSM
+Hepatitis B	WSM
+Typhoid	WSM
+Yellow Fever	WSM
+Routine vaccines	SMR
+Hepatitis A	SMR
+Hepatitis B	SMR
+Rabies	SMR
+Routine vaccines	STP
+Hepatitis A	STP
+Hepatitis B	STP
+Malaria	STP
+Rabies	STP
+Typhoid	STP
+Yellow Fever	STP
+Routine vaccines	SAU
+Hepatitis A	SAU
+Hepatitis B	SAU
+Malaria	SAU
+Meningitis (Meningococcal disease)	SAU
+Rabies	SAU
+Typhoid	SAU
+Yellow Fever	SAU
+Routine vaccines	SEN
+Hepatitis A	SEN
+Hepatitis B	SEN
+Malaria	SEN
+Meningitis (Meningococcal disease)	SEN
+Rabies	SEN
+Typhoid	SEN
+Yellow Fever	SEN
+Routine vaccines	SRB
+Hepatitis A	SRB
+Hepatitis B	SRB
+Rabies	SRB
+Routine vaccines	SYC
+Hepatitis A	SYC
+Hepatitis B	SYC
+Rabies	SYC
+Typhoid	SYC
+Yellow Fever	SYC
+Routine vaccines	SLE
+Hepatitis A	SLE
+Hepatitis B	SLE
+Malaria	SLE
+Rabies	SLE
+Typhoid	SLE
+Yellow Fever	SLE
+Routine vaccines	SGP
+Hepatitis A	SGP
+Hepatitis B	SGP
+Rabies	SGP
+Typhoid	SGP
+Yellow Fever	SGP
+Routine vaccines	STT
+Hepatitis A	STT
+Hepatitis B	STT
+Rabies	STT
+Typhoid	STT
+Yellow Fever	STT
+Routine vaccines	SXM
+Hepatitis A	SXM
+Hepatitis B	SXM
+Rabies	SXM
+Typhoid	SXM
+Yellow Fever	SXM
+Routine vaccines	SVK
+Hepatitis A	SVK
+Hepatitis B	SVK
+Rabies	SVK
+Routine vaccines	SVN
+Hepatitis A	SVN
+Hepatitis B	SVN
+Rabies	SVN
+Routine vaccines	SLB
+Hepatitis A	SLB
+Hepatitis B	SLB
+Malaria	SLB
+Typhoid	SLB
+Yellow Fever	SLB
+Routine vaccines	SOM
+Cholera	SOM
+Hepatitis A	SOM
+Hepatitis B	SOM
+Malaria	SOM
+Rabies	SOM
+Typhoid	SOM
+Yellow Fever	SOM
+Routine vaccines	ZAF
+Hepatitis A	ZAF
+Hepatitis B	ZAF
+Malaria	ZAF
+Rabies	ZAF
+Typhoid	ZAF
+Yellow Fever	ZAF
+Routine vaccines	SGS
+Hepatitis A	SGS
+Hepatitis B	SGS
+Typhoid	SGS
+Routine vaccines	KOR
+Hepatitis A	KOR
+Hepatitis B	KOR
+Japanese Encephalitis	KOR
+Malaria	KOR
+Rabies	KOR
+Typhoid	KOR
+Routine vaccines	SSD
+Cholera	SSD
+Hepatitis A	SSD
+Hepatitis B	SSD
+Malaria	SSD
+Meningitis (Meningococcal disease)	SSD
+Rabies	SSD
+Typhoid	SSD
+Yellow Fever	SSD
+Routine vaccines	ESP
+Hepatitis A	ESP
+Hepatitis B	ESP
+Rabies	ESP
+Routine vaccines	LKA
+Hepatitis A	LKA
+Hepatitis B	LKA
+Japanese Encephalitis	LKA
+Rabies	LKA
+Typhoid	LKA
+Yellow Fever	LKA
+Routine vaccines	KNA
+Hepatitis A	KNA
+Hepatitis B	KNA
+Rabies	KNA
+Typhoid	KNA
+Yellow Fever	KNA
+Routine vaccines	SDN
+Hepatitis A	SDN
+Hepatitis B	SDN
+Malaria	SDN
+Meningitis (Meningococcal disease)	SDN
+Rabies	SDN
+Typhoid	SDN
+Yellow Fever	SDN
+Routine vaccines	SUR
+Hepatitis A	SUR
+Hepatitis B	SUR
+Malaria	SUR
+Rabies	SUR
+Typhoid	SUR
+Yellow Fever	SUR
+Routine vaccines	SWZ
+Hepatitis A	SWZ
+Hepatitis B	SWZ
+Malaria	SWZ
+Rabies	SWZ
+Typhoid	SWZ
+Yellow Fever	SWZ
+Routine vaccines	SWE
+Hepatitis A	SWE
+Hepatitis B	SWE
+Rabies	SWE
+Routine vaccines	CHE
+Hepatitis A	CHE
+Hepatitis B	CHE
+Rabies	CHE
+Routine vaccines	SYR
+Hepatitis A	SYR
+Hepatitis B	SYR
+Polio	SYR
+Rabies	SYR
+Typhoid	SYR
+Routine vaccines	TWN
+Hepatitis A	TWN
+Hepatitis B	TWN
+Japanese Encephalitis	TWN
+Rabies	TWN
+Routine vaccines	TJK
+Hepatitis A	TJK
+Hepatitis B	TJK
+Malaria	TJK
+Rabies	TJK
+Typhoid	TJK
+Routine vaccines	TZA
+Cholera	TZA
+Hepatitis A	TZA
+Hepatitis B	TZA
+Malaria	TZA
+Rabies	TZA
+Typhoid	TZA
+Yellow Fever	TZA
+Routine vaccines	THA
+Cholera	THA
+Hepatitis A	THA
+Hepatitis B	THA
+Japanese Encephalitis	THA
+Malaria	THA
+Rabies	THA
+Typhoid	THA
+Yellow Fever	THA
+Routine vaccines	BHS
+Hepatitis A	BHS
+Hepatitis B	BHS
+Rabies	BHS
+Typhoid	BHS
+Yellow Fever	BHS
+Routine vaccines	GMB
+Hepatitis A	GMB
+Hepatitis B	GMB
+Malaria	GMB
+Meningitis (Meningococcal disease)	GMB
+Rabies	GMB
+Typhoid	GMB
+Yellow Fever	GMB
+Routine vaccines	TGO
+Hepatitis A	TGO
+Hepatitis B	TGO
+Malaria	TGO
+Meningitis (Meningococcal disease)	TGO
+Rabies	TGO
+Typhoid	TGO
+Yellow Fever	TGO
+Routine vaccines	TKL
+Hepatitis A	TKL
+Hepatitis B	TKL
+Typhoid	TKL
+Routine vaccines	TON
+Hepatitis A	TON
+Hepatitis B	TON
+Typhoid	TON
+Routine vaccines	TTO
+Hepatitis A	TTO
+Hepatitis B	TTO
+Rabies	TTO
+Typhoid	TTO
+Yellow Fever	TTO
+Routine vaccines	TUN
+Hepatitis A	TUN
+Hepatitis B	TUN
+Rabies	TUN
+Typhoid	TUN
+Routine vaccines	TUR
+Hepatitis A	TUR
+Hepatitis B	TUR
+Rabies	TUR
+Typhoid	TUR
+Routine vaccines	TKM
+Hepatitis A	TKM
+Hepatitis B	TKM
+Rabies	TKM
+Typhoid	TKM
+Routine vaccines	TCA
+Hepatitis A	TCA
+Hepatitis B	TCA
+Rabies	TCA
+Typhoid	TCA
+Routine vaccines	TUV
+Hepatitis A	TUV
+Hepatitis B	TUV
+Typhoid	TUV
+Routine vaccines	UGA
+Cholera	UGA
+Hepatitis A	UGA
+Hepatitis B	UGA
+Malaria	UGA
+Meningitis (Meningococcal disease)	UGA
+Rabies	UGA
+Typhoid	UGA
+Yellow Fever	UGA
+Routine vaccines	UKR
+Hepatitis A	UKR
+Hepatitis B	UKR
+Polio	UKR
+Rabies	UKR
+Routine vaccines	ARE
+Hepatitis A	ARE
+Hepatitis B	ARE
+Rabies	ARE
+Typhoid	ARE
+Routine vaccines	GBR
+Hepatitis A	GBR
+Hepatitis B	GBR
+Rabies	GBR
+Routine vaccines	URY
+Hepatitis A	URY
+Hepatitis B	URY
+Rabies	URY
+Typhoid	URY
+Routine vaccines	VIR
+Hepatitis A	VIR
+Hepatitis B	VIR
+Rabies	VIR
+Typhoid	VIR
+Routine vaccines	UZB
+Hepatitis A	UZB
+Hepatitis B	UZB
+Rabies	UZB
+Typhoid	UZB
+Routine vaccines	VUT
+Hepatitis A	VUT
+Hepatitis B	VUT
+Malaria	VUT
+Typhoid	VUT
+Routine vaccines	VEN
+Hepatitis A	VEN
+Hepatitis B	VEN
+Malaria	VEN
+Rabies	VEN
+Typhoid	VEN
+Yellow Fever	VEN
+Routine vaccines	VNM
+Hepatitis A	VNM
+Hepatitis B	VNM
+Japanese Encephalitis	VNM
+Malaria	VNM
+Rabies	VNM
+Typhoid	VNM
+Yellow Fever	VNM
+Routine vaccines	WAK
+Hepatitis A	WAK
+Hepatitis B	WAK
+Typhoid	WAK
+Routine vaccines	ESH
+Hepatitis A	ESH
+Hepatitis B	ESH
+Malaria	ESH
+Rabies	ESH
+Typhoid	ESH
+Routine vaccines	YEM
+Cholera	YEM
+Hepatitis A	YEM
+Hepatitis B	YEM
+Malaria	YEM
+Rabies	YEM
+Typhoid	YEM
+Routine vaccines	ZMB
+Cholera	ZMB
+Hepatitis A	ZMB
+Hepatitis B	ZMB
+Malaria	ZMB
+Rabies	ZMB
+Typhoid	ZMB
+Yellow Fever	ZMB
+Routine vaccines	ZWE
+Hepatitis A	ZWE
+Hepatitis B	ZWE
+Malaria	ZWE
+Rabies	ZWE
+Typhoid	ZWE
+Yellow Fever	ZWE
