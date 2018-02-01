@@ -1,0 +1,346 @@
+Vaccine_name	idEffect	Disease_name
+Vaccine_name	idEffect	Disease_Name
+Typhim Vi	13	Typhoid
+Typhim Vi	14	Typhoid
+Typhim Vi	3	Typhoid
+Typhim Vi	8	Typhoid
+Typhim Vi	1	Typhoid
+Typhim Vi	9	Typhoid
+ViVaxim	13	Typhoid
+ViVaxim	14	Typhoid
+ViVaxim	3	Typhoid
+ViVaxim	8	Typhoid
+ViVaxim	1	Typhoid
+ViVaxim	9	Typhoid
+Vivotif	13	Typhoid
+Vivotif	14	Typhoid
+Vivotif	3	Typhoid
+Vivotif	8	Typhoid
+Vivotif	1	Typhoid
+Vivotif	9	Typhoid
+Vivotif L	13	Typhoid
+Vivotif L	14	Typhoid
+Vivotif L	3	Typhoid
+Vivotif L	8	Typhoid
+Vivotif L	1	Typhoid
+Vivotif L	9	Typhoid
+Salmonella Typhimurium hfq	13	Typhoid
+Salmonella Typhimurium hfq	14	Typhoid
+Salmonella Typhimurium hfq	3	Typhoid
+Salmonella Typhimurium hfq	8	Typhoid
+Salmonella Typhimurium hfq	1	Typhoid
+Salmonella Typhimurium hfq	9	Typhoid
+Salmonella Gallinarum cpxR/Ion	13	Typhoid
+Salmonella Gallinarum cpxR/Ion	14	Typhoid
+Salmonella Gallinarum cpxR/Ion	3	Typhoid
+Salmonella Gallinarum cpxR/Ion	8	Typhoid
+Salmonella Gallinarum cpxR/Ion	1	Typhoid
+Salmonella Gallinarum cpxR/Ion	9	Typhoid
+YF-Vax	9	Yellow fever
+YF-Vax	8	Yellow fever
+Yellow Fever NS1 Protein Vaccine	9	Yellow fever
+Yellow Fever NS1 Protein Vaccine	8	Yellow fever
+vP869	9	Yellow fever
+vP869	8	Yellow fever
+Imovax Rabies	3	Rabies
+Imovax Rabies	5	Rabies
+Imovax Rabies	1	Rabies
+Imovax Rabies	9	Rabies
+Imovax Rabies	10	Rabies
+Imovax Rabies	11	Rabies
+Imovax Rabies	12	Rabies
+Imovax Rabies	8	Rabies
+RabAvert	3	Rabies
+RabAvert	5	Rabies
+RabAvert	1	Rabies
+RabAvert	9	Rabies
+RabAvert	10	Rabies
+RabAvert	11	Rabies
+RabAvert	12	Rabies
+RabAvert	8	Rabies
+Rabies Vaccine Adsorbed(RVA)	3	Rabies
+Rabies Vaccine Adsorbed(RVA)	5	Rabies
+Rabies Vaccine Adsorbed(RVA)	1	Rabies
+Rabies Vaccine Adsorbed(RVA)	9	Rabies
+Rabies Vaccine Adsorbed(RVA)	10	Rabies
+Rabies Vaccine Adsorbed(RVA)	11	Rabies
+Rabies Vaccine Adsorbed(RVA)	12	Rabies
+Rabies Vaccine Adsorbed(RVA)	8	Rabies
+Rabies vaccine rVac-N 	3	Rabies
+Rabies vaccine rVac-N 	5	Rabies
+Rabies vaccine rVac-N 	1	Rabies
+Rabies vaccine rVac-N 	9	Rabies
+Rabies vaccine rVac-N 	10	Rabies
+Rabies vaccine rVac-N 	11	Rabies
+Rabies vaccine rVac-N 	12	Rabies
+Rabies vaccine rVac-N 	8	Rabies
+Rabies virus P protein mutant vaccine 	3	Rabies
+Rabies virus P protein mutant vaccine 	5	Rabies
+Rabies virus P protein mutant vaccine 	1	Rabies
+Rabies virus P protein mutant vaccine 	9	Rabies
+Rabies virus P protein mutant vaccine 	10	Rabies
+Rabies virus P protein mutant vaccine 	11	Rabies
+Rabies virus P protein mutant vaccine 	12	Rabies
+Rabies virus P protein mutant vaccine 	8	Rabies
+Adacel-Polio	9	Polio
+Adacel-Polio	10	Polio
+Boostrix-Polio	9	Polio
+Boostrix-Polio	10	Polio
+DT Polio Adsorbed	9	Polio
+DT Polio Adsorbed	10	Polio
+Imovax Polio	9	Polio
+Imovax Polio	10	Polio
+Inactived Poliomyelitis Vaccine – IPV 	9	Polio
+Inactived Poliomyelitis Vaccine – IPV 	10	Polio
+Infanrix -IPV/Hib	9	Polio
+Infanrix -IPV/Hib	10	Polio
+Infanrix-hexa	9	Polio
+Infanrix-hexa	10	Polio
+IPOL	9	Polio
+IPOL	10	Polio
+KINRIX	9	Polio
+KINRIX	10	Polio
+Pediacel 	9	Polio
+Pediacel 	10	Polio
+Pediarix 	9	Polio
+Pediarix 	10	Polio
+Pentacel	9	Polio
+Pentacel	10	Polio
+Poliovax	9	Polio
+Poliovax	10	Polio
+Quadracel	9	Polio
+Quadracel	10	Polio
+Td Polio Adsorbed	9	Polio
+Td Polio Adsorbed	10	Polio
+Dukoral	1	Cholera
+Dukoral	2	Cholera
+Dukoral	3	Cholera
+Dukoral	4	Cholera
+Dukoral	5	Cholera
+Dukoral	9	Cholera
+Dukoral	6	Cholera
+Mutacol	1	Cholera
+Mutacol	2	Cholera
+Mutacol	3	Cholera
+Mutacol	4	Cholera
+Mutacol	5	Cholera
+Mutacol	9	Cholera
+Mutacol	6	Cholera
+V. cholerae CTB DNA Vaccine 	1	Cholera
+V. cholerae CTB DNA Vaccine 	2	Cholera
+V. cholerae CTB DNA Vaccine 	3	Cholera
+V. cholerae CTB DNA Vaccine 	4	Cholera
+V. cholerae CTB DNA Vaccine 	5	Cholera
+V. cholerae CTB DNA Vaccine 	9	Cholera
+V. cholerae CTB DNA Vaccine 	6	Cholera
+Vaxchora	1	Cholera
+Vaxchora	2	Cholera
+Vaxchora	3	Cholera
+Vaxchora	4	Cholera
+Vaxchora	5	Cholera
+Vaxchora	9	Cholera
+Vaxchora	6	Cholera
+Avaxim	7	Hepatitis A
+Avaxim	8	Hepatitis A
+Avaxim	2	Hepatitis A
+Avaxim	3	Hepatitis A
+Avaxim	9	Hepatitis A
+Avaxim – Pedriatic	7	Hepatitis A
+Avaxim – Pedriatic	8	Hepatitis A
+Avaxim – Pedriatic	2	Hepatitis A
+Avaxim – Pedriatic	3	Hepatitis A
+Avaxim – Pedriatic	9	Hepatitis A
+Epaxal	7	Hepatitis A
+Epaxal	8	Hepatitis A
+Epaxal	2	Hepatitis A
+Epaxal	3	Hepatitis A
+Epaxal	9	Hepatitis A
+Harvix	7	Hepatitis A
+Harvix	8	Hepatitis A
+Harvix	2	Hepatitis A
+Harvix	3	Hepatitis A
+Harvix	9	Hepatitis A
+Twinrix	7	Hepatitis A
+Twinrix	8	Hepatitis A
+Twinrix	2	Hepatitis A
+Twinrix	3	Hepatitis A
+Twinrix	9	Hepatitis A
+Twinrix Junior	7	Hepatitis A
+Twinrix Junior	8	Hepatitis A
+Twinrix Junior	2	Hepatitis A
+Twinrix Junior	3	Hepatitis A
+Twinrix Junior	9	Hepatitis A
+VAQTA	7	Hepatitis A
+VAQTA	8	Hepatitis A
+VAQTA	2	Hepatitis A
+VAQTA	3	Hepatitis A
+VAQTA	9	Hepatitis A
+ViVaxim	7	Hepatitis A
+ViVaxim	8	Hepatitis A
+ViVaxim	2	Hepatitis A
+ViVaxim	3	Hepatitis A
+ViVaxim	9	Hepatitis A
+COMVAX	9	Hepatitis B
+COMVAX	8	Hepatitis B
+Hepatitis B DNA vaccine pCEA/HBsAg encoding CEA and HBsAg 	9	Hepatitis B
+Hepatitis B DNA vaccine pCEA/HBsAg encoding CEA and HBsAg 	8	Hepatitis B
+Engerix-B	9	Hepatitis B
+Engerix-B	8	Hepatitis B
+Pediarix	9	Hepatitis B
+Pediarix	8	Hepatitis B
+Twinrix	9	Hepatitis B
+Twinrix	8	Hepatitis B
+Twinrix Junior	9	Hepatitis B
+Twinrix Junior	8	Hepatitis B
+BEXSERO	9	Meningitis (Meningococcal disease)
+BEXSERO	8	Meningitis (Meningococcal disease)
+BEXSERO	2	Meningitis (Meningococcal disease)
+BEXSERO	10	Meningitis (Meningococcal disease)
+BEXSERO	3	Meningitis (Meningococcal disease)
+BEXSERO	5	Meningitis (Meningococcal disease)
+CCPS-P64kR	9	Meningitis (Meningococcal disease)
+CCPS-P64kR	8	Meningitis (Meningococcal disease)
+CCPS-P64kR	2	Meningitis (Meningococcal disease)
+CCPS-P64kR	10	Meningitis (Meningococcal disease)
+CCPS-P64kR	3	Meningitis (Meningococcal disease)
+CCPS-P64kR	5	Meningitis (Meningococcal disease)
+Menactra	9	Meningitis (Meningococcal disease)
+Menactra	8	Meningitis (Meningococcal disease)
+Menactra	2	Meningitis (Meningococcal disease)
+Menactra	10	Meningitis (Meningococcal disease)
+Menactra	3	Meningitis (Meningococcal disease)
+Menactra	5	Meningitis (Meningococcal disease)
+MenHibrix 	9	Meningitis (Meningococcal disease)
+MenHibrix 	8	Meningitis (Meningococcal disease)
+MenHibrix 	2	Meningitis (Meningococcal disease)
+MenHibrix 	10	Meningitis (Meningococcal disease)
+MenHibrix 	3	Meningitis (Meningococcal disease)
+MenHibrix 	5	Meningitis (Meningococcal disease)
+Meningitec 	9	Meningitis (Meningococcal disease)
+Meningitec 	8	Meningitis (Meningococcal disease)
+Meningitec 	2	Meningitis (Meningococcal disease)
+Meningitec 	10	Meningitis (Meningococcal disease)
+Meningitec 	3	Meningitis (Meningococcal disease)
+Meningitec 	5	Meningitis (Meningococcal disease)
+Meningococcal Polysaccharide Vaccine, Groups A & C, Menomune A/C 	9	Meningitis (Meningococcal disease)
+Meningococcal Polysaccharide Vaccine, Groups A & C, Menomune A/C 	8	Meningitis (Meningococcal disease)
+Meningococcal Polysaccharide Vaccine, Groups A & C, Menomune A/C 	2	Meningitis (Meningococcal disease)
+Meningococcal Polysaccharide Vaccine, Groups A & C, Menomune A/C 	10	Meningitis (Meningococcal disease)
+Meningococcal Polysaccharide Vaccine, Groups A & C, Menomune A/C 	3	Meningitis (Meningococcal disease)
+Meningococcal Polysaccharide Vaccine, Groups A & C, Menomune A/C 	5	Meningitis (Meningococcal disease)
+Menjugate	9	Meningitis (Meningococcal disease)
+Menjugate	8	Meningitis (Meningococcal disease)
+Menjugate	2	Meningitis (Meningococcal disease)
+Menjugate	10	Meningitis (Meningococcal disease)
+Menjugate	3	Meningitis (Meningococcal disease)
+Menjugate	5	Meningitis (Meningococcal disease)
+Menomune-A/C/Y/W-135 	9	Meningitis (Meningococcal disease)
+Menomune-A/C/Y/W-135 	8	Meningitis (Meningococcal disease)
+Menomune-A/C/Y/W-135 	2	Meningitis (Meningococcal disease)
+Menomune-A/C/Y/W-135 	10	Meningitis (Meningococcal disease)
+Menomune-A/C/Y/W-135 	3	Meningitis (Meningococcal disease)
+Menomune-A/C/Y/W-135 	5	Meningitis (Meningococcal disease)
+Menveo	9	Meningitis (Meningococcal disease)
+Menveo	8	Meningitis (Meningococcal disease)
+Menveo	2	Meningitis (Meningococcal disease)
+Menveo	10	Meningitis (Meningococcal disease)
+Menveo	3	Meningitis (Meningococcal disease)
+Menveo	5	Meningitis (Meningococcal disease)
+Neisvac-C 	9	Meningitis (Meningococcal disease)
+Neisvac-C 	8	Meningitis (Meningococcal disease)
+Neisvac-C 	2	Meningitis (Meningococcal disease)
+Neisvac-C 	10	Meningitis (Meningococcal disease)
+Neisvac-C 	3	Meningitis (Meningococcal disease)
+Neisvac-C 	5	Meningitis (Meningococcal disease)
+NIMENRIX 	9	Meningitis (Meningococcal disease)
+NIMENRIX 	8	Meningitis (Meningococcal disease)
+NIMENRIX 	2	Meningitis (Meningococcal disease)
+NIMENRIX 	10	Meningitis (Meningococcal disease)
+NIMENRIX 	3	Meningitis (Meningococcal disease)
+NIMENRIX 	5	Meningitis (Meningococcal disease)
+TRUMENBA 	9	Meningitis (Meningococcal disease)
+TRUMENBA 	8	Meningitis (Meningococcal disease)
+TRUMENBA 	2	Meningitis (Meningococcal disease)
+TRUMENBA 	10	Meningitis (Meningococcal disease)
+TRUMENBA 	3	Meningitis (Meningococcal disease)
+TRUMENBA 	5	Meningitis (Meningococcal disease)
+N. meningitidis DNA vaccine P3A 	9	Meningitis (Meningococcal disease)
+N. meningitidis DNA vaccine P3A 	8	Meningitis (Meningococcal disease)
+N. meningitidis DNA vaccine P3A 	2	Meningitis (Meningococcal disease)
+N. meningitidis DNA vaccine P3A 	10	Meningitis (Meningococcal disease)
+N. meningitidis DNA vaccine P3A 	3	Meningitis (Meningococcal disease)
+N. meningitidis DNA vaccine P3A 	5	Meningitis (Meningococcal disease)
+N. meningitidis ExbB Protein Vaccine 	9	Meningitis (Meningococcal disease)
+N. meningitidis ExbB Protein Vaccine 	8	Meningitis (Meningococcal disease)
+N. meningitidis ExbB Protein Vaccine 	2	Meningitis (Meningococcal disease)
+N. meningitidis ExbB Protein Vaccine 	10	Meningitis (Meningococcal disease)
+N. meningitidis ExbB Protein Vaccine 	3	Meningitis (Meningococcal disease)
+N. meningitidis ExbB Protein Vaccine 	5	Meningitis (Meningococcal disease)
+N. meningitidis LctP Protein Vaccine 	9	Meningitis (Meningococcal disease)
+N. meningitidis LctP Protein Vaccine 	8	Meningitis (Meningococcal disease)
+N. meningitidis LctP Protein Vaccine 	2	Meningitis (Meningococcal disease)
+N. meningitidis LctP Protein Vaccine 	10	Meningitis (Meningococcal disease)
+N. meningitidis LctP Protein Vaccine 	3	Meningitis (Meningococcal disease)
+N. meningitidis LctP Protein Vaccine 	5	Meningitis (Meningococcal disease)
+N. meningitidis NspA Protein Vaccine 	9	Meningitis (Meningococcal disease)
+N. meningitidis NspA Protein Vaccine 	8	Meningitis (Meningococcal disease)
+N. meningitidis NspA Protein Vaccine 	2	Meningitis (Meningococcal disease)
+N. meningitidis NspA Protein Vaccine 	10	Meningitis (Meningococcal disease)
+N. meningitidis NspA Protein Vaccine 	3	Meningitis (Meningococcal disease)
+N. meningitidis NspA Protein Vaccine 	5	Meningitis (Meningococcal disease)
+N. meningitidis TbpA Protein Vaccine 	9	Meningitis (Meningococcal disease)
+N. meningitidis TbpA Protein Vaccine 	8	Meningitis (Meningococcal disease)
+N. meningitidis TbpA Protein Vaccine 	2	Meningitis (Meningococcal disease)
+N. meningitidis TbpA Protein Vaccine 	10	Meningitis (Meningococcal disease)
+N. meningitidis TbpA Protein Vaccine 	3	Meningitis (Meningococcal disease)
+N. meningitidis TbpA Protein Vaccine 	5	Meningitis (Meningococcal disease)
+N. miningitidis TBP2 Protein Vaccine 	9	Meningitis (Meningococcal disease)
+N. miningitidis TBP2 Protein Vaccine 	8	Meningitis (Meningococcal disease)
+N. miningitidis TBP2 Protein Vaccine 	2	Meningitis (Meningococcal disease)
+N. miningitidis TBP2 Protein Vaccine 	10	Meningitis (Meningococcal disease)
+N. miningitidis TBP2 Protein Vaccine 	3	Meningitis (Meningococcal disease)
+N. miningitidis TBP2 Protein Vaccine 	5	Meningitis (Meningococcal disease)
+Neisseria meningitidis metH/siaD mutant vaccine 	9	Meningitis (Meningococcal disease)
+Neisseria meningitidis metH/siaD mutant vaccine 	8	Meningitis (Meningococcal disease)
+Neisseria meningitidis metH/siaD mutant vaccine 	2	Meningitis (Meningococcal disease)
+Neisseria meningitidis metH/siaD mutant vaccine 	10	Meningitis (Meningococcal disease)
+Neisseria meningitidis metH/siaD mutant vaccine 	3	Meningitis (Meningococcal disease)
+Neisseria meningitidis metH/siaD mutant vaccine 	5	Meningitis (Meningococcal disease)
+Neisseria meningitidis rfaF/siaD mutant vaccine 	9	Meningitis (Meningococcal disease)
+Neisseria meningitidis rfaF/siaD mutant vaccine 	8	Meningitis (Meningococcal disease)
+Neisseria meningitidis rfaF/siaD mutant vaccine 	2	Meningitis (Meningococcal disease)
+Neisseria meningitidis rfaF/siaD mutant vaccine 	10	Meningitis (Meningococcal disease)
+Neisseria meningitidis rfaF/siaD mutant vaccine 	3	Meningitis (Meningococcal disease)
+Neisseria meningitidis rfaF/siaD mutant vaccine 	5	Meningitis (Meningococcal disease)
+JE-Vax 	3	Japanese Encephalitis
+JE-Vax 	9	Japanese Encephalitis
+JE-Vax 	8	Japanese Encephalitis
+JE-Vax 	10	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding E protein 	3	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding E protein 	9	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding E protein 	8	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding E protein 	10	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding NS1 (pUSK-NS1) 	3	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding NS1 (pUSK-NS1) 	9	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding NS1 (pUSK-NS1) 	8	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding NS1 (pUSK-NS1) 	10	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding PrM 	3	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding PrM 	9	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding PrM 	8	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine encoding PrM 	10	Japanese Encephalitis
+Japanese encephalitis virus DNA Vaccine P-JEV 	3	Japanese Encephalitis
+Japanese encephalitis virus DNA Vaccine P-JEV 	9	Japanese Encephalitis
+Japanese encephalitis virus DNA Vaccine P-JEV 	8	Japanese Encephalitis
+Japanese encephalitis virus DNA Vaccine P-JEV 	10	Japanese Encephalitis
+Japanese encephalitis virus DNA Vaccine pCJ-3/E encoding E 	3	Japanese Encephalitis
+Japanese encephalitis virus DNA Vaccine pCJ-3/E encoding E 	9	Japanese Encephalitis
+Japanese encephalitis virus DNA Vaccine pCJ-3/E encoding E 	8	Japanese Encephalitis
+Japanese encephalitis virus DNA Vaccine pCJ-3/E encoding E 	10	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine pUJENS3 	3	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine pUJENS3 	9	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine pUJENS3 	8	Japanese Encephalitis
+Japanese encephalitis virus DNA vaccine pUJENS3 	10	Japanese Encephalitis
+Japanese encephalitis virus vaccine BV-G-E 	3	Japanese Encephalitis
+Japanese encephalitis virus vaccine BV-G-E 	9	Japanese Encephalitis
+Japanese encephalitis virus vaccine BV-G-E 	8	Japanese Encephalitis
+Japanese encephalitis virus vaccine BV-G-E 	10	Japanese Encephalitis
