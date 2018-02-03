@@ -23,8 +23,8 @@
     </header>
 	<div class="container">
 	<h1 class="myspacing"> About This project </h1>
-	<p class="justify"> Welcome to our project Traveccines webpage! <br> We are Oriol Gracia, Álvaro Serrano and Juan Luis Melero, Students of the Master in Bioinformatics for Health Science, and this is our Databases and Web Development project.<br>As we know, everybody loves travelling and health is very  important, we have created this user-friendlyvweb appliaction to look for the diseases and the vaccines you should have before travelling. Feel free to travel through this webpage and this web application safely.<br>
-<strong>Now beign safe while travelling is just one click away from you ;)</strong></p>
+	<p class="justify"> Welcome to our project Traveccines webpage! <br> We are Oriol Gracia, Álvaro Serrano and Juan Luis Melero, Students of the Master in Bioinformatics for Health Science, and this is our Databases and Web Development project.<br>As we know, everybody loves travelling and health is very  important, we have created this user-friendlyvweb application to look for the diseases and the vaccines you should have before travelling. Feel free to travel through this webpage and this web application safely.<br>
+<strong>Now being safe while travelling is just one click away from you ;)</strong></p>
 </div>
     </body>
 
