@@ -8,11 +8,16 @@ Polio	AFG
 Rabies	AFG
 Typhoid	AFG
 Yellow Fever	AFG
+Dengue	AFG
+H5N1 Avian Influenza	AFG
+Tuberculosis (TB)	AFG
 Routine vaccines	ALB
 Hepatitis A	ALB
 Hepatitis B	ALB
 Rabies	ALB
 Yellow Fever	ALB
+Tickborne Encephalitis	ALB
+H5N1 Avian Influenza	ALB
 Routine vaccines	DZA
 Hepatitis A	DZA
 Hepatitis B	DZA
@@ -24,6 +29,7 @@ Routine vaccines	ASM
 Hepatitis A	ASM
 Hepatitis B	ASM
 Typhoid	ASM
+Dengue	ASM
 Routine vaccines	AND
 Hepatitis A	AND
 Hepatitis B	AND
@@ -35,47 +41,66 @@ Malaria	AGO
 Rabies	AGO
 Typhoid	AGO
 Yellow Fever	AGO
+African Sleeping Sickness (African Trypanosomiasis)	AGO
+African Tick-Bite Fever	AGO
+Chikungunya	AGO
+Dengue	AGO
+HIV Infection	AGO
+Tuberculosis (TB)	AGO
 Routine vaccines	AIA
 Hepatitis A	AIA
 Hepatitis B	AIA
 Rabies	AIA
 Typhoid	AIA
+African Tick-Bite Fever	AIA
+Dengue	AIA
 Routine vaccines	ATG
 Hepatitis A	ATG
 Hepatitis B	ATG
 Rabies	ATG
 Typhoid	ATG
 Yellow Fever	ATG
+African Tick-Bite Fever	ATG
+Dengue	ATG
 Routine vaccines	ARG
 Hepatitis A	ARG
 Hepatitis B	ARG
 Rabies	ARG
 Typhoid	ARG
 Yellow Fever	ARG
+Chagas disease (American Trypanosomiasis)	ARG
+Dengue	ARG
 Routine vaccines	ARM
 Hepatitis A	ARM
 Hepatitis B	ARM
 Rabies	ARM
+Tuberculosis (TB)	ARM
 Routine vaccines	ABW
 Hepatitis A	ABW
 Hepatitis B	ABW
 Rabies	ABW
 Typhoid	ABW
+Dengue	ABW
 Routine vaccines	AUS
 Hepatitis A	AUS
 Hepatitis B	AUS
 Japanese Encephalitis	AUS
 Rabies	AUS
 Yellow Fever	AUS
+Dengue	AUS
 Routine vaccines	AUT
 Hepatitis A	AUT
 Hepatitis B	AUT
 Rabies	AUT
+Tickborne Encephalitis	AUT
+H5N1 Avian Influenza	AUT
 Routine vaccines	AZE
 Hepatitis A	AZE
 Hepatitis B	AZE
 Malaria	AZE
 Rabies	AZE
+H5N1 Avian Influenza	AZE
+Tuberculosis (TB)	AZE
 Routine vaccines	AZO
 Hepatitis A	AZO
 Hepatitis B	AZO
@@ -95,16 +120,24 @@ Malaria	BGD
 Rabies	BGD
 Typhoid	BGD
 Yellow Fever	BGD
+Chikungunya	BGD
+Dengue	BGD
+H5N1 Avian Influenza	BGD
+Tuberculosis (TB)	BGD
 Routine vaccines	BRB
 Hepatitis A	BRB
 Hepatitis B	BRB
 Rabies	BRB
 Typhoid	BRB
 Yellow Fever	BRB
+African Tick-Bite Fever	BRB
+Dengue	BRB
 Routine vaccines	BLR
 Hepatitis A	BLR
 Hepatitis B	BLR
 Rabies	BLR
+Tickborne Encephalitis	BLR
+Tuberculosis (TB)	BLR
 Routine vaccines	BEL
 Hepatitis A	BEL
 Hepatitis B	BEL
@@ -116,6 +149,9 @@ Malaria	BLZ
 Rabies	BLZ
 Typhoid	BLZ
 Yellow Fever	BLZ
+Chagas disease (American Trypanosomiasis)	BLZ
+Dengue	BLZ
+HIV Infection	BLZ
 Routine vaccines	BEN
 Cholera	BEN
 Hepatitis A	BEN
@@ -125,6 +161,12 @@ Meningitis (Meningococcal disease)	BEN
 Rabies	BEN
 Typhoid	BEN
 Yellow Fever	BEN
+African Sleeping Sickness (African Trypanosomiasis)	BEN
+African Tick-Bite Fever	BEN
+Chikungunya	BEN
+Dengue	BEN
+HIV Infection	BEN
+H5N1 Avian Influenza	BEN
 Routine vaccines	BMU
 Hepatitis A	BMU
 Hepatitis B	BMU
@@ -138,6 +180,9 @@ Malaria	BTN
 Rabies	BTN
 Typhoid	BTN
 Yellow Fever	BTN
+Dengue	BTN
+H5N1 Avian Influenza	BTN
+Tuberculosis (TB)	BTN
 Routine vaccines	BOL
 Hepatitis A	BOL
 Hepatitis B	BOL
@@ -145,16 +190,22 @@ Malaria	BOL
 Rabies	BOL
 Typhoid	BOL
 Yellow Fever	BOL
+Chagas disease (American Trypanosomiasis)	BOL
+Dengue	BOL
+Tuberculosis (TB)	BOL
 Routine vaccines	BES
 Hepatitis A	BES
 Hepatitis B	BES
 Rabies	BES
 Typhoid	BES
 Yellow Fever	BES
+Dengue	BES
 Routine vaccines	BIH
 Hepatitis A	BIH
 Hepatitis B	BIH
 Rabies	BIH
+Tickborne Encephalitis	BIH
+H5N1 Avian Influenza	BIH
 Routine vaccines	BWA
 Hepatitis A	BWA
 Hepatitis B	BWA
@@ -162,6 +213,12 @@ Malaria	BWA
 Rabies	BWA
 Typhoid	BWA
 Yellow Fever	BWA
+African Sleeping Sickness (African Trypanosomiasis)	BWA
+African Tick-Bite Fever	BWA
+Chikungunya	BWA
+Dengue	BWA
+HIV Infection	BWA
+Tuberculosis (TB)	BWA
 Routine vaccines	BRA
 Hepatitis A	BRA
 Hepatitis B	BRA
@@ -169,15 +226,19 @@ Malaria	BRA
 Rabies	BRA
 Typhoid	BRA
 Yellow Fever	BRA
+Chagas disease (American Trypanosomiasis)	BRA
+Dengue	BRA
 Routine vaccines	IOT
 Hepatitis A	IOT
 Hepatitis B	IOT
 Typhoid	IOT
+Chikungunya	IOT
 Routine vaccines	VGB
 Hepatitis A	VGB
 Hepatitis B	VGB
 Rabies	VGB
 Typhoid	VGB
+Dengue	VGB
 Routine vaccines	BRN
 Hepatitis A	BRN
 Hepatitis B	BRN
@@ -185,10 +246,14 @@ Japanese Encephalitis	BRN
 Rabies	BRN
 Typhoid	BRN
 Yellow Fever	BRN
+Chikungunya	BRN
+Dengue	BRN
 Routine vaccines	BGR
 Hepatitis A	BGR
 Hepatitis B	BGR
 Rabies	BGR
+H5N1 Avian Influenza	BGR
+Tuberculosis (TB)	BGR
 Routine vaccines	BFA
 Hepatitis A	BFA
 Hepatitis B	BFA
@@ -197,6 +262,12 @@ Meningitis (Meningococcal disease)	BFA
 Rabies	BFA
 Typhoid	BFA
 Yellow Fever	BFA
+African Sleeping Sickness (African Trypanosomiasis)	BFA
+African Tick-Bite Fever	BFA
+Chikungunya	BFA
+Dengue	BFA
+HIV Infection	BFA
+H5N1 Avian Influenza	BFA
 Routine vaccines	MMR
 Cholera	MMR
 Hepatitis A	MMR
@@ -206,6 +277,10 @@ Malaria	MMR
 Rabies	MMR
 Typhoid	MMR
 Yellow Fever	MMR
+Chikungunya	MMR
+Dengue	MMR
+H5N1 Avian Influenza	MMR
+Tuberculosis (TB)	MMR
 Routine vaccines	BDI
 Cholera	BDI
 Hepatitis A	BDI
@@ -214,6 +289,11 @@ Malaria	BDI
 Rabies	BDI
 Typhoid	BDI
 Yellow Fever	BDI
+African Sleeping Sickness (African Trypanosomiasis)	BDI
+African Tick-Bite Fever	BDI
+Chikungunya	BDI
+HIV Infection	BDI
+Tuberculosis (TB)	BDI
 Routine vaccines	KHM
 Hepatitis A	KHM
 Hepatitis B	KHM
@@ -222,6 +302,11 @@ Malaria	KHM
 Rabies	KHM
 Typhoid	KHM
 Yellow Fever	KHM
+Chikungunya	KHM
+Dengue	KHM
+H5N1 Avian Influenza	KHM
+Hand, Foot, &amp; Mouth Disease	KHM
+Tuberculosis (TB)	KHM
 Routine vaccines	CMR
 Cholera	CMR
 Hepatitis A	CMR
@@ -232,6 +317,13 @@ Polio	CMR
 Rabies	CMR
 Typhoid	CMR
 Yellow Fever	CMR
+African Sleeping Sickness (African Trypanosomiasis)	CMR
+African Tick-Bite Fever	CMR
+Chikungunya	CMR
+Dengue	CMR
+HIV Infection	CMR
+H5N1 Avian Influenza	CMR
+Tuberculosis (TB)	CMR
 Routine vaccines	CAN
 Hepatitis A	CAN
 Hepatitis B	CAN
@@ -240,6 +332,7 @@ Routine vaccines	CAI
 Hepatitis A	CAI
 Hepatitis B	CAI
 Rabies	CAI
+Dengue	CAI
 Routine vaccines	CPV
 Hepatitis A	CPV
 Hepatitis B	CPV
@@ -247,11 +340,17 @@ Malaria	CPV
 Rabies	CPV
 Typhoid	CPV
 Yellow Fever	CPV
+African Tick-Bite Fever	CPV
+Chikungunya	CPV
+Dengue	CPV
+HIV Infection	CPV
+Tuberculosis (TB)	CPV
 Routine vaccines	CYM
 Hepatitis A	CYM
 Hepatitis B	CYM
 Rabies	CYM
 Typhoid	CYM
+Dengue	CYM
 Routine vaccines	CAF
 Cholera	CAF
 Hepatitis A	CAF
@@ -261,6 +360,12 @@ Meningitis (Meningococcal disease)	CAF
 Rabies	CAF
 Typhoid	CAF
 Yellow Fever	CAF
+African Sleeping Sickness (African Trypanosomiasis)	CAF
+African Tick-Bite Fever	CAF
+Chikungunya	CAF
+Dengue	CAF
+HIV Infection	CAF
+Tuberculosis (TB)	CAF
 Routine vaccines	TCD
 Cholera	TCD
 Hepatitis A	TCD
@@ -271,11 +376,18 @@ Polio	TCD
 Rabies	TCD
 Typhoid	TCD
 Yellow Fever	TCD
+African Sleeping Sickness (African Trypanosomiasis)	TCD
+African Tick-Bite Fever	TCD
+Chikungunya	TCD
+Dengue	TCD
+HIV Infection	TCD
+Tuberculosis (TB)	TCD
 Routine vaccines	CHL
 Hepatitis A	CHL
 Hepatitis B	CHL
 Rabies	CHL
 Typhoid	CHL
+Chagas disease (American Trypanosomiasis)	CHL
 Routine vaccines	CHN
 Hepatitis A	CHN
 Hepatitis B	CHN
@@ -285,16 +397,24 @@ Polio	CHN
 Rabies	CHN
 Typhoid	CHN
 Yellow Fever	CHN
+Chikungunya	CHN
+Dengue	CHN
+Tickborne Encephalitis	CHN
+H5N1 Avian Influenza	CHN
+Hand, Foot, &amp; Mouth Disease	CHN
+Tuberculosis (TB)	CHN
 Routine vaccines	CXR
 Hepatitis A	CXR
 Hepatitis B	CXR
 Typhoid	CXR
 Yellow Fever	CXR
+Chikungunya	CXR
 Routine vaccines	CCK
 Hepatitis A	CCK
 Hepatitis B	CCK
 Typhoid	CCK
 Yellow Fever	CCK
+Chikungunya	CCK
 Routine vaccines	COL
 Hepatitis A	COL
 Hepatitis B	COL
@@ -302,12 +422,16 @@ Malaria	COL
 Rabies	COL
 Typhoid	COL
 Yellow Fever	COL
+Chagas disease (American Trypanosomiasis)	COL
+Dengue	COL
 Routine vaccines	COM
 Hepatitis A	COM
 Hepatitis B	COM
 Malaria	COM
 Rabies	COM
 Typhoid	COM
+Chikungunya	COM
+Dengue	COM
 Routine vaccines	COG
 Hepatitis A	COG
 Hepatitis B	COG
@@ -315,10 +439,17 @@ Malaria	COG
 Rabies	COG
 Typhoid	COG
 Yellow Fever	COG
+African Sleeping Sickness (African Trypanosomiasis)	COG
+African Tick-Bite Fever	COG
+Chikungunya	COG
+Dengue	COG
+HIV Infection	COG
+Tuberculosis (TB)	COG
 Routine vaccines	COK
 Hepatitis A	COK
 Hepatitis B	COK
 Typhoid	COK
+Dengue	COK
 Routine vaccines	CRI
 Hepatitis A	CRI
 Hepatitis B	CRI
@@ -326,21 +457,27 @@ Malaria	CRI
 Rabies	CRI
 Typhoid	CRI
 Yellow Fever	CRI
+Chagas disease (American Trypanosomiasis)	CRI
+Dengue	CRI
 Routine vaccines	HRV
 Hepatitis A	HRV
 Hepatitis B	HRV
 Rabies	HRV
+Tickborne Encephalitis	HRV
+H5N1 Avian Influenza	HRV
 Routine vaccines	CUB
 Hepatitis A	CUB
 Hepatitis B	CUB
 Rabies	CUB
 Typhoid	CUB
+Dengue	CUB
 Routine vaccines	CUW
 Hepatitis A	CUW
 Hepatitis B	CUW
 Rabies	CUW
 Typhoid	CUW
 Yellow Fever	CUW
+Dengue	CUW
 Routine vaccines	CYP
 Hepatitis A	CYP
 Hepatitis B	CYP
@@ -350,6 +487,8 @@ Routine vaccines	CZE
 Hepatitis A	CZE
 Hepatitis B	CZE
 Rabies	CZE
+Tickborne Encephalitis	CZE
+H5N1 Avian Influenza	CZE
 Routine vaccines	COD
 Cholera	COD
 Hepatitis A	COD
@@ -359,10 +498,18 @@ Polio	COD
 Rabies	COD
 Typhoid	COD
 Yellow Fever	COD
+African Sleeping Sickness (African Trypanosomiasis)	COD
+African Tick-Bite Fever	COD
+Chikungunya	COD
+Dengue	COD
+HIV Infection	COD
+Tuberculosis (TB)	COD
 Routine vaccines	DNK
 Hepatitis A	DNK
 Hepatitis B	DNK
 Rabies	DNK
+Tickborne Encephalitis	DNK
+H5N1 Avian Influenza	DNK
 Routine vaccines	DJI
 Hepatitis A	DJI
 Hepatitis B	DJI
@@ -370,12 +517,20 @@ Malaria	DJI
 Rabies	DJI
 Typhoid	DJI
 Yellow Fever	DJI
+African Tick-Bite Fever	DJI
+Chikungunya	DJI
+Dengue	DJI
+HIV Infection	DJI
+H5N1 Avian Influenza	DJI
+Tuberculosis (TB)	DJI
 Routine vaccines	DMA
 Hepatitis A	DMA
 Hepatitis B	DMA
 Rabies	DMA
 Typhoid	DMA
 Yellow Fever	DMA
+African Tick-Bite Fever	DMA
+Dengue	DMA
 Routine vaccines	DOM
 Cholera	DOM
 Hepatitis A	DOM
@@ -383,10 +538,12 @@ Hepatitis B	DOM
 Malaria	DOM
 Rabies	DOM
 Typhoid	DOM
+Dengue	DOM
 Routine vaccines	EAS
 Hepatitis A	EAS
 Hepatitis B	EAS
 Typhoid	EAS
+Dengue	EAS
 Routine vaccines	TLS
 Hepatitis A	TLS
 Hepatitis B	TLS
@@ -395,6 +552,9 @@ Malaria	TLS
 Rabies	TLS
 Typhoid	TLS
 Yellow Fever	TLS
+Chikungunya	TLS
+Dengue	TLS
+Tuberculosis (TB)	TLS
 Routine vaccines	ECU
 Hepatitis A	ECU
 Hepatitis B	ECU
@@ -402,12 +562,17 @@ Malaria	ECU
 Rabies	ECU
 Typhoid	ECU
 Yellow Fever	ECU
+Chagas disease (American Trypanosomiasis)	ECU
+Dengue	ECU
 Routine vaccines	EGY
 Hepatitis A	EGY
 Hepatitis B	EGY
 Rabies	EGY
 Typhoid	EGY
 Yellow Fever	EGY
+African Tick-Bite Fever	EGY
+Dengue	EGY
+H5N1 Avian Influenza	EGY
 Routine vaccines	SLV
 Hepatitis A	SLV
 Hepatitis B	SLV
@@ -415,6 +580,8 @@ Malaria	SLV
 Rabies	SLV
 Typhoid	SLV
 Yellow Fever	SLV
+Chagas disease (American Trypanosomiasis)	SLV
+Dengue	SLV
 Routine vaccines	GNQ
 Hepatitis A	GNQ
 Hepatitis B	GNQ
@@ -422,6 +589,12 @@ Malaria	GNQ
 Rabies	GNQ
 Typhoid	GNQ
 Yellow Fever	GNQ
+African Sleeping Sickness (African Trypanosomiasis)	GNQ
+African Tick-Bite Fever	GNQ
+Chikungunya	GNQ
+Dengue	GNQ
+HIV Infection	GNQ
+Tuberculosis (TB)	GNQ
 Routine vaccines	ERI
 Hepatitis A	ERI
 Hepatitis B	ERI
@@ -430,10 +603,17 @@ Meningitis (Meningococcal disease)	ERI
 Rabies	ERI
 Typhoid	ERI
 Yellow Fever	ERI
+African Tick-Bite Fever	ERI
+Chikungunya	ERI
+Dengue	ERI
+Tuberculosis (TB)	ERI
 Routine vaccines	EST
 Hepatitis A	EST
 Hepatitis B	EST
 Rabies	EST
+Tickborne Encephalitis	EST
+HIV Infection	EST
+Tuberculosis (TB)	EST
 Routine vaccines	ETH
 Cholera	ETH
 Hepatitis A	ETH
@@ -443,6 +623,12 @@ Meningitis (Meningococcal disease)	ETH
 Rabies	ETH
 Typhoid	ETH
 Yellow Fever	ETH
+African Sleeping Sickness (African Trypanosomiasis)	ETH
+African Tick-Bite Fever	ETH
+Chikungunya	ETH
+Dengue	ETH
+HIV Infection	ETH
+Tuberculosis (TB)	ETH
 Routine vaccines	FLK
 Hepatitis A	FLK
 Hepatitis B	FLK
@@ -456,14 +642,18 @@ Hepatitis A	FJI
 Hepatitis B	FJI
 Typhoid	FJI
 Yellow Fever	FJI
+Dengue	FJI
 Routine vaccines	FIN
 Hepatitis A	FIN
 Hepatitis B	FIN
 Rabies	FIN
+Tickborne Encephalitis	FIN
 Routine vaccines	FRA
 Hepatitis A	FRA
 Hepatitis B	FRA
 Rabies	FRA
+Tickborne Encephalitis	FRA
+H5N1 Avian Influenza	FRA
 Routine vaccines	GUF
 Hepatitis A	GUF
 Hepatitis B	GUF
@@ -471,11 +661,14 @@ Malaria	GUF
 Rabies	GUF
 Typhoid	GUF
 Yellow Fever	GUF
+Chagas disease (American Trypanosomiasis)	GUF
+Dengue	GUF
 Routine vaccines	PYF
 Hepatitis A	PYF
 Hepatitis B	PYF
 Typhoid	PYF
 Yellow Fever	PYF
+Dengue	PYF
 Routine vaccines	GAB
 Hepatitis A	GAB
 Hepatitis B	GAB
@@ -483,14 +676,24 @@ Malaria	GAB
 Rabies	GAB
 Typhoid	GAB
 Yellow Fever	GAB
+African Sleeping Sickness (African Trypanosomiasis)	GAB
+African Tick-Bite Fever	GAB
+Chikungunya	GAB
+Dengue	GAB
+HIV Infection	GAB
+Tuberculosis (TB)	GAB
 Routine vaccines	GEO
 Hepatitis A	GEO
 Hepatitis B	GEO
 Rabies	GEO
+H5N1 Avian Influenza	GEO
+Tuberculosis (TB)	GEO
 Routine vaccines	DEU
 Hepatitis A	DEU
 Hepatitis B	DEU
 Rabies	DEU
+Tickborne Encephalitis	DEU
+H5N1 Avian Influenza	DEU
 Routine vaccines	GHA
 Cholera	GHA
 Hepatitis A	GHA
@@ -500,6 +703,12 @@ Meningitis (Meningococcal disease)	GHA
 Rabies	GHA
 Typhoid	GHA
 Yellow Fever	GHA
+African Sleeping Sickness (African Trypanosomiasis)	GHA
+African Tick-Bite Fever	GHA
+Chikungunya	GHA
+Dengue	GHA
+HIV Infection	GHA
+H5N1 Avian Influenza	GHA
 Routine vaccines	GIB
 Hepatitis A	GIB
 Hepatitis B	GIB
@@ -508,6 +717,8 @@ Routine vaccines	GRC
 Hepatitis A	GRC
 Hepatitis B	GRC
 Rabies	GRC
+Tickborne Encephalitis	GRC
+H5N1 Avian Influenza	GRC
 Routine vaccines	GRL
 Hepatitis A	GRL
 Hepatitis B	GRL
@@ -518,16 +729,20 @@ Hepatitis B	GRD
 Rabies	GRD
 Typhoid	GRD
 Yellow Fever	GRD
+Dengue	GRD
 Routine vaccines	GLP
 Hepatitis A	GLP
 Hepatitis B	GLP
 Rabies	GLP
 Typhoid	GLP
 Yellow Fever	GLP
+African Tick-Bite Fever	GLP
+Dengue	GLP
 Routine vaccines	GUM
 Hepatitis A	GUM
 Hepatitis B	GUM
 Typhoid	GUM
+Dengue	GUM
 Routine vaccines	GTM
 Hepatitis A	GTM
 Hepatitis B	GTM
@@ -535,6 +750,8 @@ Malaria	GTM
 Rabies	GTM
 Typhoid	GTM
 Yellow Fever	GTM
+Chagas disease (American Trypanosomiasis)	GTM
+Dengue	GTM
 Routine vaccines	GIN
 Hepatitis A	GIN
 Hepatitis B	GIN
@@ -543,6 +760,12 @@ Meningitis (Meningococcal disease)	GIN
 Rabies	GIN
 Typhoid	GIN
 Yellow Fever	GIN
+African Sleeping Sickness (African Trypanosomiasis)	GIN
+African Tick-Bite Fever	GIN
+Chikungunya	GIN
+Ebola	GIN
+HIV Infection	GIN
+Tuberculosis (TB)	GIN
 Routine vaccines	GNB
 Hepatitis A	GNB
 Hepatitis B	GNB
@@ -551,6 +774,11 @@ Meningitis (Meningococcal disease)	GNB
 Rabies	GNB
 Typhoid	GNB
 Yellow Fever	GNB
+African Sleeping Sickness (African Trypanosomiasis)	GNB
+African Tick-Bite Fever	GNB
+Chikungunya	GNB
+HIV Infection	GNB
+Tuberculosis (TB)	GNB
 Routine vaccines	GUY
 Hepatitis A	GUY
 Hepatitis B	GUY
@@ -558,6 +786,10 @@ Malaria	GUY
 Rabies	GUY
 Typhoid	GUY
 Yellow Fever	GUY
+Chagas disease (American Trypanosomiasis)	GUY
+Dengue	GUY
+HIV Infection	GUY
+Tuberculosis (TB)	GUY
 Routine vaccines	HTI
 Cholera	HTI
 Hepatitis A	HTI
@@ -566,6 +798,9 @@ Malaria	HTI
 Rabies	HTI
 Typhoid	HTI
 Yellow Fever	HTI
+Dengue	HTI
+HIV Infection	HTI
+Tuberculosis (TB)	HTI
 Routine vaccines	HND
 Hepatitis A	HND
 Hepatitis B	HND
@@ -573,15 +808,22 @@ Malaria	HND
 Rabies	HND
 Typhoid	HND
 Yellow Fever	HND
+Chagas disease (American Trypanosomiasis)	HND
+Dengue	HND
 Routine vaccines	HKG
 Hepatitis A	HKG
 Hepatitis B	HKG
 Rabies	HKG
 Typhoid	HKG
+Chikungunya	HKG
+H5N1 Avian Influenza	HKG
+Hand, Foot, &amp; Mouth Disease	HKG
 Routine vaccines	HUN
 Hepatitis A	HUN
 Hepatitis B	HUN
 Rabies	HUN
+Tickborne Encephalitis	HUN
+H5N1 Avian Influenza	HUN
 Routine vaccines	ISL
 Hepatitis A	ISL
 Hepatitis B	ISL
@@ -595,6 +837,10 @@ Malaria	IND
 Rabies	IND
 Typhoid	IND
 Yellow Fever	IND
+Chikungunya	IND
+Dengue	IND
+H5N1 Avian Influenza	IND
+Tuberculosis (TB)	IND
 Routine vaccines	IDN
 Hepatitis A	IDN
 Hepatitis B	IDN
@@ -603,6 +849,10 @@ Malaria	IDN
 Rabies	IDN
 Typhoid	IDN
 Yellow Fever	IDN
+Chikungunya	IDN
+Dengue	IDN
+H5N1 Avian Influenza	IDN
+Tuberculosis (TB)	IDN
 Routine vaccines	IRN
 Hepatitis A	IRN
 Hepatitis B	IRN
@@ -611,6 +861,8 @@ Polio	IRN
 Rabies	IRN
 Typhoid	IRN
 Yellow Fever	IRN
+Dengue	IRN
+H5N1 Avian Influenza	IRN
 Routine vaccines	IRQ
 Cholera	IRQ
 Hepatitis A	IRQ
@@ -618,6 +870,7 @@ Hepatitis B	IRQ
 Rabies	IRQ
 Typhoid	IRQ
 Yellow Fever	IRQ
+H5N1 Avian Influenza	IRQ
 Routine vaccines	IRL
 Hepatitis A	IRL
 Hepatitis B	IRL
@@ -627,10 +880,13 @@ Hepatitis A	ISR
 Hepatitis B	ISR
 Rabies	ISR
 Typhoid	ISR
+H5N1 Avian Influenza	ISR
 Routine vaccines	ITA
 Hepatitis A	ITA
 Hepatitis B	ITA
 Rabies	ITA
+Tickborne Encephalitis	ITA
+H5N1 Avian Influenza	ITA
 Routine vaccines	CIV
 Cholera	CIV
 Hepatitis A	CIV
@@ -640,29 +896,44 @@ Meningitis (Meningococcal disease)	CIV
 Rabies	CIV
 Typhoid	CIV
 Yellow Fever	CIV
+African Sleeping Sickness (African Trypanosomiasis)	CIV
+African Tick-Bite Fever	CIV
+Chikungunya	CIV
+Dengue	CIV
+HIV Infection	CIV
+H5N1 Avian Influenza	CIV
+Tuberculosis (TB)	CIV
 Routine vaccines	JAM
 Hepatitis A	JAM
 Hepatitis B	JAM
 Rabies	JAM
 Typhoid	JAM
 Yellow Fever	JAM
+Dengue	JAM
+HIV Infection	JAM
 Routine vaccines	JPN
 Hepatitis A	JPN
 Hepatitis B	JPN
 Japanese Encephalitis	JPN
 Rabies	JPN
+Tickborne Encephalitis	JPN
+H5N1 Avian Influenza	JPN
 Routine vaccines	JOR
 Hepatitis A	JOR
 Hepatitis B	JOR
 Rabies	JOR
 Typhoid	JOR
 Yellow Fever	JOR
+H5N1 Avian Influenza	JOR
 Routine vaccines	KAZ
 Hepatitis A	KAZ
 Hepatitis B	KAZ
 Rabies	KAZ
 Typhoid	KAZ
 Yellow Fever	KAZ
+Tickborne Encephalitis	KAZ
+H5N1 Avian Influenza	KAZ
+Tuberculosis (TB)	KAZ
 Routine vaccines	KEN
 Cholera	KEN
 Hepatitis A	KEN
@@ -672,11 +943,19 @@ Meningitis (Meningococcal disease)	KEN
 Rabies	KEN
 Typhoid	KEN
 Yellow Fever	KEN
+African Sleeping Sickness (African Trypanosomiasis)	KEN
+African Tick-Bite Fever	KEN
+Chikungunya	KEN
+Dengue	KEN
+HIV Infection	KEN
+Tuberculosis (TB)	KEN
 Routine vaccines	KIR
 Hepatitis A	KIR
 Hepatitis B	KIR
 Typhoid	KIR
 Yellow Fever	KIR
+Dengue	KIR
+Tuberculosis (TB)	KIR
 Routine vaccines	KOS
 Hepatitis A	KOS
 Hepatitis B	KOS
@@ -686,12 +965,16 @@ Hepatitis A	KWT
 Hepatitis B	KWT
 Rabies	KWT
 Typhoid	KWT
+Dengue	KWT
+H5N1 Avian Influenza	KWT
 Routine vaccines	KGZ
 Hepatitis A	KGZ
 Hepatitis B	KGZ
 Rabies	KGZ
 Typhoid	KGZ
 Yellow Fever	KGZ
+Tickborne Encephalitis	KGZ
+Tuberculosis (TB)	KGZ
 Routine vaccines	LAO
 Hepatitis A	LAO
 Hepatitis B	LAO
@@ -700,10 +983,15 @@ Malaria	LAO
 Rabies	LAO
 Typhoid	LAO
 Yellow Fever	LAO
+Chikungunya	LAO
+Dengue	LAO
+H5N1 Avian Influenza	LAO
 Routine vaccines	LVA
 Hepatitis A	LVA
 Hepatitis B	LVA
 Rabies	LVA
+Tickborne Encephalitis	LVA
+Tuberculosis (TB)	LVA
 Routine vaccines	LBN
 Hepatitis A	LBN
 Hepatitis B	LBN
@@ -715,6 +1003,10 @@ Hepatitis B	LSO
 Rabies	LSO
 Typhoid	LSO
 Yellow Fever	LSO
+African Tick-Bite Fever	LSO
+Chikungunya	LSO
+HIV Infection	LSO
+Tuberculosis (TB)	LSO
 Routine vaccines	LBR
 Hepatitis A	LBR
 Hepatitis B	LBR
@@ -722,6 +1014,12 @@ Malaria	LBR
 Rabies	LBR
 Typhoid	LBR
 Yellow Fever	LBR
+African Sleeping Sickness (African Trypanosomiasis)	LBR
+Chikungunya	LBR
+Dengue	LBR
+Ebola	LBR
+HIV Infection	LBR
+Tuberculosis (TB)	LBR
 Routine vaccines	LBY
 Hepatitis A	LBY
 Hepatitis B	LBY
@@ -732,10 +1030,13 @@ Routine vaccines	LIE
 Hepatitis A	LIE
 Hepatitis B	LIE
 Rabies	LIE
+Tickborne Encephalitis	LIE
 Routine vaccines	LTU
 Hepatitis A	LTU
 Hepatitis B	LTU
 Rabies	LTU
+Tickborne Encephalitis	LTU
+Tuberculosis (TB)	LTU
 Routine vaccines	LUX
 Hepatitis A	LUX
 Hepatitis B	LUX
@@ -745,6 +1046,9 @@ Hepatitis A	MAC
 Hepatitis B	MAC
 Rabies	MAC
 Typhoid	MAC
+Chikungunya	MAC
+Dengue	MAC
+Hand, Foot, &amp; Mouth Disease	MAC
 Routine vaccines	MKD
 Hepatitis A	MKD
 Hepatitis B	MKD
@@ -756,10 +1060,15 @@ Malaria	MDG
 Rabies	MDG
 Typhoid	MDG
 Yellow Fever	MDG
+African Tick-Bite Fever	MDG
+Chikungunya	MDG
+Dengue	MDG
+Tuberculosis (TB)	MDG
 Routine vaccines	MAD
 Hepatitis A	MAD
 Hepatitis B	MAD
 Rabies	MAD
+Dengue	MAD
 Routine vaccines	MWI
 Cholera	MWI
 Hepatitis A	MWI
@@ -768,6 +1077,12 @@ Malaria	MWI
 Rabies	MWI
 Typhoid	MWI
 Yellow Fever	MWI
+African Sleeping Sickness (African Trypanosomiasis)	MWI
+African Tick-Bite Fever	MWI
+Chikungunya	MWI
+Dengue	MWI
+HIV Infection	MWI
+Tuberculosis (TB)	MWI
 Routine vaccines	MYS
 Cholera	MYS
 Hepatitis A	MYS
@@ -777,11 +1092,17 @@ Malaria	MYS
 Rabies	MYS
 Typhoid	MYS
 Yellow Fever	MYS
+Chikungunya	MYS
+Dengue	MYS
+H5N1 Avian Influenza	MYS
+Hand, Foot, &amp; Mouth Disease	MYS
 Routine vaccines	MDV
 Hepatitis A	MDV
 Hepatitis B	MDV
 Typhoid	MDV
 Yellow Fever	MDV
+Chikungunya	MDV
+Dengue	MDV
 Routine vaccines	MLI
 Hepatitis A	MLI
 Hepatitis B	MLI
@@ -790,6 +1111,11 @@ Meningitis (Meningococcal disease)	MLI
 Rabies	MLI
 Typhoid	MLI
 Yellow Fever	MLI
+African Sleeping Sickness (African Trypanosomiasis)	MLI
+African Tick-Bite Fever	MLI
+Chikungunya	MLI
+Dengue	MLI
+HIV Infection	MLI
 Routine vaccines	MLT
 Hepatitis A	MLT
 Hepatitis B	MLT
@@ -799,12 +1125,16 @@ Routine vaccines	MHL
 Hepatitis A	MHL
 Hepatitis B	MHL
 Typhoid	MHL
+Dengue	MHL
+Tuberculosis (TB)	MHL
 Routine vaccines	MTQ
 Hepatitis A	MTQ
 Hepatitis B	MTQ
 Rabies	MTQ
 Typhoid	MTQ
 Yellow Fever	MTQ
+African Tick-Bite Fever	MTQ
+Dengue	MTQ
 Routine vaccines	MRT
 Hepatitis A	MRT
 Hepatitis B	MRT
@@ -812,12 +1142,20 @@ Malaria	MRT
 Rabies	MRT
 Typhoid	MRT
 Yellow Fever	MRT
+African Tick-Bite Fever	MRT
+Chikungunya	MRT
+Dengue	MRT
+HIV Infection	MRT
+Tuberculosis (TB)	MRT
 Routine vaccines	MUS
 Hepatitis A	MUS
 Hepatitis B	MUS
 Rabies	MUS
 Typhoid	MUS
 Yellow Fever	MUS
+Chikungunya	MUS
+Dengue	MUS
+HIV Infection	MUS
 Routine vaccines	MYT
 Hepatitis A	MYT
 Hepatitis B	MYT
@@ -825,20 +1163,30 @@ Malaria	MYT
 Rabies	MYT
 Typhoid	MYT
 Yellow Fever	MYT
+Chikungunya	MYT
+Dengue	MYT
 Routine vaccines	MEX
 Hepatitis A	MEX
 Hepatitis B	MEX
 Malaria	MEX
 Rabies	MEX
 Typhoid	MEX
+Chagas disease (American Trypanosomiasis)	MEX
+Dengue	MEX
+Tuberculosis (TB)	MEX
 Routine vaccines	FSM
 Hepatitis A	FSM
 Hepatitis B	FSM
 Typhoid	FSM
+Chikungunya	FSM
+Dengue	FSM
+Tuberculosis (TB)	FSM
 Routine vaccines	MDA
 Hepatitis A	MDA
 Hepatitis B	MDA
 Rabies	MDA
+Tickborne Encephalitis	MDA
+Tuberculosis (TB)	MDA
 Routine vaccines	MCO
 Hepatitis A	MCO
 Hepatitis B	MCO
@@ -848,16 +1196,22 @@ Hepatitis A	MNG
 Hepatitis B	MNG
 Rabies	MNG
 Typhoid	MNG
+Tickborne Encephalitis	MNG
+H5N1 Avian Influenza	MNG
+Tuberculosis (TB)	MNG
 Routine vaccines	MNE
 Hepatitis A	MNE
 Hepatitis B	MNE
 Rabies	MNE
+H5N1 Avian Influenza	MNE
 Routine vaccines	MSR
 Hepatitis A	MSR
 Hepatitis B	MSR
 Rabies	MSR
 Typhoid	MSR
 Yellow Fever	MSR
+African Tick-Bite Fever	MSR
+Dengue	MSR
 Routine vaccines	MAR
 Hepatitis A	MAR
 Hepatitis B	MAR
@@ -871,6 +1225,12 @@ Malaria	MOZ
 Rabies	MOZ
 Typhoid	MOZ
 Yellow Fever	MOZ
+African Sleeping Sickness (African Trypanosomiasis)	MOZ
+African Tick-Bite Fever	MOZ
+Chikungunya	MOZ
+Dengue	MOZ
+HIV Infection	MOZ
+Tuberculosis (TB)	MOZ
 Routine vaccines	NAM
 Hepatitis A	NAM
 Hepatitis B	NAM
@@ -878,11 +1238,18 @@ Malaria	NAM
 Rabies	NAM
 Typhoid	NAM
 Yellow Fever	NAM
+African Sleeping Sickness (African Trypanosomiasis)	NAM
+African Tick-Bite Fever	NAM
+Chikungunya	NAM
+Dengue	NAM
+HIV Infection	NAM
+Tuberculosis (TB)	NAM
 Routine vaccines	NRU
 Hepatitis A	NRU
 Hepatitis B	NRU
 Typhoid	NRU
 Yellow Fever	NRU
+Dengue	NRU
 Routine vaccines	NPL
 Hepatitis A	NPL
 Hepatitis B	NPL
@@ -891,6 +1258,9 @@ Malaria	NPL
 Rabies	NPL
 Typhoid	NPL
 Yellow Fever	NPL
+Dengue	NPL
+H5N1 Avian Influenza	NPL
+Tuberculosis (TB)	NPL
 Routine vaccines	NLD
 Hepatitis A	NLD
 Hepatitis B	NLD
@@ -900,6 +1270,8 @@ Hepatitis A	NCL
 Hepatitis B	NCL
 Typhoid	NCL
 Yellow Fever	NCL
+Chikungunya	NCL
+Dengue	NCL
 Routine vaccines	NZL
 Hepatitis A	NZL
 Hepatitis B	NZL
@@ -909,6 +1281,8 @@ Hepatitis B	NIC
 Malaria	NIC
 Rabies	NIC
 Typhoid	NIC
+Chagas disease (American Trypanosomiasis)	NIC
+Dengue	NIC
 Routine vaccines	NER
 Hepatitis A	NER
 Hepatitis B	NER
@@ -917,6 +1291,12 @@ Polio	NER
 Rabies	NER
 Typhoid	NER
 Yellow Fever	NER
+African Sleeping Sickness (African Trypanosomiasis)	NER
+African Tick-Bite Fever	NER
+Chikungunya	NER
+Dengue	NER
+H5N1 Avian Influenza	NER
+Tuberculosis (TB)	NER
 Routine vaccines	NGA
 Cholera	NGA
 Hepatitis A	NGA
@@ -927,6 +1307,13 @@ Polio	NGA
 Rabies	NGA
 Typhoid	NGA
 Yellow Fever	NGA
+African Sleeping Sickness (African Trypanosomiasis)	NGA
+African Tick-Bite Fever	NGA
+Chikungunya	NGA
+Dengue	NGA
+HIV Infection	NGA
+H5N1 Avian Influenza	NGA
+Tuberculosis (TB)	NGA
 Routine vaccines	NIU
 Hepatitis A	NIU
 Hepatitis B	NIU
@@ -941,6 +1328,7 @@ Routine vaccines	MNP
 Hepatitis A	MNP
 Hepatitis B	MNP
 Typhoid	MNP
+Dengue	MNP
 Routine vaccines	PRK
 Hepatitis A	PRK
 Hepatitis B	PRK
@@ -949,10 +1337,12 @@ Malaria	PRK
 Rabies	PRK
 Typhoid	PRK
 Yellow Fever	PRK
+Tuberculosis (TB)	PRK
 Routine vaccines	NOR
 Hepatitis A	NOR
 Hepatitis B	NOR
 Rabies	NOR
+Tickborne Encephalitis	NOR
 Routine vaccines	OMN
 Hepatitis A	OMN
 Hepatitis B	OMN
@@ -960,6 +1350,7 @@ Malaria	OMN
 Rabies	OMN
 Typhoid	OMN
 Yellow Fever	OMN
+Dengue	OMN
 Routine vaccines	PAK
 Hepatitis A	PAK
 Hepatitis B	PAK
@@ -969,10 +1360,17 @@ Polio	PAK
 Rabies	PAK
 Typhoid	PAK
 Yellow Fever	PAK
+Chikungunya	PAK
+Dengue	PAK
+H5N1 Avian Influenza	PAK
+Tuberculosis (TB)	PAK
 Routine vaccines	PLW
 Hepatitis A	PLW
 Hepatitis B	PLW
 Typhoid	PLW
+Chikungunya	PLW
+Dengue	PLW
+Tuberculosis (TB)	PLW
 Routine vaccines	PAN
 Hepatitis A	PAN
 Hepatitis B	PAN
@@ -980,6 +1378,8 @@ Malaria	PAN
 Rabies	PAN
 Typhoid	PAN
 Yellow Fever	PAN
+Chagas disease (American Trypanosomiasis)	PAN
+Dengue	PAN
 Routine vaccines	PNG
 Hepatitis A	PNG
 Hepatitis B	PNG
@@ -987,6 +1387,8 @@ Japanese Encephalitis	PNG
 Malaria	PNG
 Rabies	PNG
 Typhoid	PNG
+Dengue	PNG
+Tuberculosis (TB)	PNG
 Routine vaccines	PRY
 Hepatitis A	PRY
 Hepatitis B	PRY
@@ -994,6 +1396,8 @@ Malaria	PRY
 Rabies	PRY
 Typhoid	PRY
 Yellow Fever	PRY
+Chagas disease (American Trypanosomiasis)	PRY
+Dengue	PRY
 Routine vaccines	PER
 Hepatitis A	PER
 Hepatitis B	PER
@@ -1001,6 +1405,9 @@ Malaria	PER
 Rabies	PER
 Typhoid	PER
 Yellow Fever	PER
+Chagas disease (American Trypanosomiasis)	PER
+Dengue	PER
+Tuberculosis (TB)	PER
 Routine vaccines	PHL
 Hepatitis A	PHL
 Hepatitis B	PHL
@@ -1009,6 +1416,9 @@ Malaria	PHL
 Rabies	PHL
 Typhoid	PHL
 Yellow Fever	PHL
+Chikungunya	PHL
+Dengue	PHL
+Tuberculosis (TB)	PHL
 Routine vaccines	PCN
 Hepatitis A	PCN
 Hepatitis B	PCN
@@ -1018,6 +1428,8 @@ Routine vaccines	POL
 Hepatitis A	POL
 Hepatitis B	POL
 Rabies	POL
+Tickborne Encephalitis	POL
+H5N1 Avian Influenza	POL
 Routine vaccines	PRT
 Hepatitis A	PRT
 Hepatitis B	PRT
@@ -1027,26 +1439,39 @@ Hepatitis A	PRI
 Hepatitis B	PRI
 Rabies	PRI
 Typhoid	PRI
+African Tick-Bite Fever	PRI
+Dengue	PRI
 Routine vaccines	QAT
 Hepatitis A	QAT
 Hepatitis B	QAT
 Rabies	QAT
 Typhoid	QAT
+Dengue	QAT
 Routine vaccines	REU
 Hepatitis A	REU
 Hepatitis B	REU
 Rabies	REU
 Typhoid	REU
 Yellow Fever	REU
+African Tick-Bite Fever	REU
+Chikungunya	REU
+Dengue	REU
 Routine vaccines	ROU
 Hepatitis A	ROU
 Hepatitis B	ROU
 Rabies	ROU
+Tickborne Encephalitis	ROU
+H5N1 Avian Influenza	ROU
+Tuberculosis (TB)	ROU
 Routine vaccines	RUS
 Hepatitis A	RUS
 Hepatitis B	RUS
 Japanese Encephalitis	RUS
 Rabies	RUS
+Tickborne Encephalitis	RUS
+HIV Infection	RUS
+H5N1 Avian Influenza	RUS
+Tuberculosis (TB)	RUS
 Routine vaccines	RWA
 Hepatitis A	RWA
 Hepatitis B	RWA
@@ -1054,18 +1479,27 @@ Malaria	RWA
 Rabies	RWA
 Typhoid	RWA
 Yellow Fever	RWA
+African Sleeping Sickness (African Trypanosomiasis)	RWA
+African Tick-Bite Fever	RWA
+Chikungunya	RWA
+Dengue	RWA
+HIV Infection	RWA
+Tuberculosis (TB)	RWA
 Routine vaccines	SAB
 Hepatitis A	SAB
 Hepatitis B	SAB
 Rabies	SAB
 Typhoid	SAB
 Yellow Fever	SAB
+Dengue	SAB
 Routine vaccines	BLM
 Hepatitis A	BLM
 Hepatitis B	BLM
 Rabies	BLM
 Typhoid	BLM
 Yellow Fever	BLM
+African Tick-Bite Fever	BLM
+Dengue	BLM
 Routine vaccines	SHN
 Hepatitis A	SHN
 Hepatitis B	SHN
@@ -1077,12 +1511,16 @@ Hepatitis B	LCA
 Rabies	LCA
 Typhoid	LCA
 Yellow Fever	LCA
+African Tick-Bite Fever	LCA
+Dengue	LCA
 Routine vaccines	MAF
 Hepatitis A	MAF
 Hepatitis B	MAF
 Rabies	MAF
 Typhoid	MAF
 Yellow Fever	MAF
+African Tick-Bite Fever	MAF
+Dengue	MAF
 Routine vaccines	SPM
 Hepatitis A	SPM
 Hepatitis B	SPM
@@ -1093,11 +1531,14 @@ Hepatitis B	VCT
 Rabies	VCT
 Typhoid	VCT
 Yellow Fever	VCT
+African Tick-Bite Fever	VCT
+Dengue	VCT
 Routine vaccines	WSM
 Hepatitis A	WSM
 Hepatitis B	WSM
 Typhoid	WSM
 Yellow Fever	WSM
+Dengue	WSM
 Routine vaccines	SMR
 Hepatitis A	SMR
 Hepatitis B	SMR
@@ -1109,6 +1550,8 @@ Malaria	STP
 Rabies	STP
 Typhoid	STP
 Yellow Fever	STP
+Chikungunya	STP
+HIV Infection	STP
 Routine vaccines	SAU
 Hepatitis A	SAU
 Hepatitis B	SAU
@@ -1117,6 +1560,8 @@ Meningitis (Meningococcal disease)	SAU
 Rabies	SAU
 Typhoid	SAU
 Yellow Fever	SAU
+Dengue	SAU
+H5N1 Avian Influenza	SAU
 Routine vaccines	SEN
 Hepatitis A	SEN
 Hepatitis B	SEN
@@ -1125,16 +1570,25 @@ Meningitis (Meningococcal disease)	SEN
 Rabies	SEN
 Typhoid	SEN
 Yellow Fever	SEN
+African Sleeping Sickness (African Trypanosomiasis)	SEN
+African Tick-Bite Fever	SEN
+Chikungunya	SEN
+Dengue	SEN
+Tuberculosis (TB)	SEN
 Routine vaccines	SRB
 Hepatitis A	SRB
 Hepatitis B	SRB
 Rabies	SRB
+Tickborne Encephalitis	SRB
+H5N1 Avian Influenza	SRB
 Routine vaccines	SYC
 Hepatitis A	SYC
 Hepatitis B	SYC
 Rabies	SYC
 Typhoid	SYC
 Yellow Fever	SYC
+Chikungunya	SYC
+Dengue	SYC
 Routine vaccines	SLE
 Hepatitis A	SLE
 Hepatitis B	SLE
@@ -1142,38 +1596,54 @@ Malaria	SLE
 Rabies	SLE
 Typhoid	SLE
 Yellow Fever	SLE
+African Tick-Bite Fever	SLE
+Chikungunya	SLE
+Ebola	SLE
+HIV Infection	SLE
+Tuberculosis (TB)	SLE
 Routine vaccines	SGP
 Hepatitis A	SGP
 Hepatitis B	SGP
 Rabies	SGP
 Typhoid	SGP
 Yellow Fever	SGP
+Chikungunya	SGP
+Dengue	SGP
+Hand, Foot, &amp; Mouth Disease	SGP
 Routine vaccines	STT
 Hepatitis A	STT
 Hepatitis B	STT
 Rabies	STT
 Typhoid	STT
 Yellow Fever	STT
+Dengue	STT
 Routine vaccines	SXM
 Hepatitis A	SXM
 Hepatitis B	SXM
 Rabies	SXM
 Typhoid	SXM
 Yellow Fever	SXM
+Dengue	SXM
 Routine vaccines	SVK
 Hepatitis A	SVK
 Hepatitis B	SVK
 Rabies	SVK
+Tickborne Encephalitis	SVK
+H5N1 Avian Influenza	SVK
 Routine vaccines	SVN
 Hepatitis A	SVN
 Hepatitis B	SVN
 Rabies	SVN
+Tickborne Encephalitis	SVN
+H5N1 Avian Influenza	SVN
 Routine vaccines	SLB
 Hepatitis A	SLB
 Hepatitis B	SLB
 Malaria	SLB
 Typhoid	SLB
 Yellow Fever	SLB
+Dengue	SLB
+Tuberculosis (TB)	SLB
 Routine vaccines	SOM
 Cholera	SOM
 Hepatitis A	SOM
@@ -1182,6 +1652,10 @@ Malaria	SOM
 Rabies	SOM
 Typhoid	SOM
 Yellow Fever	SOM
+African Tick-Bite Fever	SOM
+Chikungunya	SOM
+Dengue	SOM
+Tuberculosis (TB)	SOM
 Routine vaccines	ZAF
 Hepatitis A	ZAF
 Hepatitis B	ZAF
@@ -1189,6 +1663,11 @@ Malaria	ZAF
 Rabies	ZAF
 Typhoid	ZAF
 Yellow Fever	ZAF
+African Tick-Bite Fever	ZAF
+Chikungunya	ZAF
+HIV Infection	ZAF
+H5N1 Avian Influenza	ZAF
+Tuberculosis (TB)	ZAF
 Routine vaccines	SGS
 Hepatitis A	SGS
 Hepatitis B	SGS
@@ -1200,6 +1679,8 @@ Japanese Encephalitis	KOR
 Malaria	KOR
 Rabies	KOR
 Typhoid	KOR
+Tickborne Encephalitis	KOR
+H5N1 Avian Influenza	KOR
 Routine vaccines	SSD
 Cholera	SSD
 Hepatitis A	SSD
@@ -1209,10 +1690,18 @@ Meningitis (Meningococcal disease)	SSD
 Rabies	SSD
 Typhoid	SSD
 Yellow Fever	SSD
+African Sleeping Sickness (African Trypanosomiasis)	SSD
+African Tick-Bite Fever	SSD
+Chikungunya	SSD
+Dengue	SSD
+HIV Infection	SSD
+H5N1 Avian Influenza	SSD
+Tuberculosis (TB)	SSD
 Routine vaccines	ESP
 Hepatitis A	ESP
 Hepatitis B	ESP
 Rabies	ESP
+H5N1 Avian Influenza	ESP
 Routine vaccines	LKA
 Hepatitis A	LKA
 Hepatitis B	LKA
@@ -1220,12 +1709,16 @@ Japanese Encephalitis	LKA
 Rabies	LKA
 Typhoid	LKA
 Yellow Fever	LKA
+Chikungunya	LKA
+Dengue	LKA
 Routine vaccines	KNA
 Hepatitis A	KNA
 Hepatitis B	KNA
 Rabies	KNA
 Typhoid	KNA
 Yellow Fever	KNA
+African Tick-Bite Fever	KNA
+Dengue	KNA
 Routine vaccines	SDN
 Hepatitis A	SDN
 Hepatitis B	SDN
@@ -1234,6 +1727,12 @@ Meningitis (Meningococcal disease)	SDN
 Rabies	SDN
 Typhoid	SDN
 Yellow Fever	SDN
+African Sleeping Sickness (African Trypanosomiasis)	SDN
+African Tick-Bite Fever	SDN
+Chikungunya	SDN
+Dengue	SDN
+H5N1 Avian Influenza	SDN
+Tuberculosis (TB)	SDN
 Routine vaccines	SUR
 Hepatitis A	SUR
 Hepatitis B	SUR
@@ -1241,6 +1740,10 @@ Malaria	SUR
 Rabies	SUR
 Typhoid	SUR
 Yellow Fever	SUR
+Chagas disease (American Trypanosomiasis)	SUR
+Dengue	SUR
+HIV Infection	SUR
+Tuberculosis (TB)	SUR
 Routine vaccines	SWZ
 Hepatitis A	SWZ
 Hepatitis B	SWZ
@@ -1248,14 +1751,24 @@ Malaria	SWZ
 Rabies	SWZ
 Typhoid	SWZ
 Yellow Fever	SWZ
+African Sleeping Sickness (African Trypanosomiasis)	SWZ
+African Tick-Bite Fever	SWZ
+Chikungunya	SWZ
+Dengue	SWZ
+HIV Infection	SWZ
+Tuberculosis (TB)	SWZ
 Routine vaccines	SWE
 Hepatitis A	SWE
 Hepatitis B	SWE
 Rabies	SWE
+Tickborne Encephalitis	SWE
+H5N1 Avian Influenza	SWE
 Routine vaccines	CHE
 Hepatitis A	CHE
 Hepatitis B	CHE
 Rabies	CHE
+Tickborne Encephalitis	CHE
+H5N1 Avian Influenza	CHE
 Routine vaccines	SYR
 Hepatitis A	SYR
 Hepatitis B	SYR
@@ -1267,12 +1780,17 @@ Hepatitis A	TWN
 Hepatitis B	TWN
 Japanese Encephalitis	TWN
 Rabies	TWN
+Chikungunya	TWN
+Dengue	TWN
+H5N1 Avian Influenza	TWN
+Hand, Foot, &amp; Mouth Disease	TWN
 Routine vaccines	TJK
 Hepatitis A	TJK
 Hepatitis B	TJK
 Malaria	TJK
 Rabies	TJK
 Typhoid	TJK
+Tuberculosis (TB)	TJK
 Routine vaccines	TZA
 Cholera	TZA
 Hepatitis A	TZA
@@ -1281,6 +1799,12 @@ Malaria	TZA
 Rabies	TZA
 Typhoid	TZA
 Yellow Fever	TZA
+African Sleeping Sickness (African Trypanosomiasis)	TZA
+African Tick-Bite Fever	TZA
+Chikungunya	TZA
+Dengue	TZA
+HIV Infection	TZA
+Tuberculosis (TB)	TZA
 Routine vaccines	THA
 Cholera	THA
 Hepatitis A	THA
@@ -1290,12 +1814,19 @@ Malaria	THA
 Rabies	THA
 Typhoid	THA
 Yellow Fever	THA
+Chikungunya	THA
+Dengue	THA
+HIV Infection	THA
+H5N1 Avian Influenza	THA
+Tuberculosis (TB)	THA
 Routine vaccines	BHS
 Hepatitis A	BHS
 Hepatitis B	BHS
 Rabies	BHS
 Typhoid	BHS
 Yellow Fever	BHS
+Dengue	BHS
+HIV Infection	BHS
 Routine vaccines	GMB
 Hepatitis A	GMB
 Hepatitis B	GMB
@@ -1304,6 +1835,11 @@ Meningitis (Meningococcal disease)	GMB
 Rabies	GMB
 Typhoid	GMB
 Yellow Fever	GMB
+African Sleeping Sickness (African Trypanosomiasis)	GMB
+African Tick-Bite Fever	GMB
+Chikungunya	GMB
+HIV Infection	GMB
+Tuberculosis (TB)	GMB
 Routine vaccines	TGO
 Hepatitis A	TGO
 Hepatitis B	TGO
@@ -1312,6 +1848,12 @@ Meningitis (Meningococcal disease)	TGO
 Rabies	TGO
 Typhoid	TGO
 Yellow Fever	TGO
+African Sleeping Sickness (African Trypanosomiasis)	TGO
+African Tick-Bite Fever	TGO
+Chikungunya	TGO
+HIV Infection	TGO
+H5N1 Avian Influenza	TGO
+Tuberculosis (TB)	TGO
 Routine vaccines	TKL
 Hepatitis A	TKL
 Hepatitis B	TKL
@@ -1326,6 +1868,8 @@ Hepatitis B	TTO
 Rabies	TTO
 Typhoid	TTO
 Yellow Fever	TTO
+Dengue	TTO
+HIV Infection	TTO
 Routine vaccines	TUN
 Hepatitis A	TUN
 Hepatitis B	TUN
@@ -1336,6 +1880,7 @@ Hepatitis A	TUR
 Hepatitis B	TUR
 Rabies	TUR
 Typhoid	TUR
+H5N1 Avian Influenza	TUR
 Routine vaccines	TKM
 Hepatitis A	TKM
 Hepatitis B	TKM
@@ -1346,10 +1891,13 @@ Hepatitis A	TCA
 Hepatitis B	TCA
 Rabies	TCA
 Typhoid	TCA
+Dengue	TCA
 Routine vaccines	TUV
 Hepatitis A	TUV
 Hepatitis B	TUV
 Typhoid	TUV
+Dengue	TUV
+Tuberculosis (TB)	TUV
 Routine vaccines	UGA
 Cholera	UGA
 Hepatitis A	UGA
@@ -1359,11 +1907,20 @@ Meningitis (Meningococcal disease)	UGA
 Rabies	UGA
 Typhoid	UGA
 Yellow Fever	UGA
+African Sleeping Sickness (African Trypanosomiasis)	UGA
+African Tick-Bite Fever	UGA
+Chikungunya	UGA
+Dengue	UGA
+HIV Infection	UGA
+Tuberculosis (TB)	UGA
 Routine vaccines	UKR
 Hepatitis A	UKR
 Hepatitis B	UKR
 Polio	UKR
 Rabies	UKR
+Tickborne Encephalitis	UKR
+H5N1 Avian Influenza	UKR
+Tuberculosis (TB)	UKR
 Routine vaccines	ARE
 Hepatitis A	ARE
 Hepatitis B	ARE
@@ -1373,26 +1930,32 @@ Routine vaccines	GBR
 Hepatitis A	GBR
 Hepatitis B	GBR
 Rabies	GBR
+H5N1 Avian Influenza	GBR
 Routine vaccines	URY
 Hepatitis A	URY
 Hepatitis B	URY
 Rabies	URY
 Typhoid	URY
+Chagas disease (American Trypanosomiasis)	URY
 Routine vaccines	VIR
 Hepatitis A	VIR
 Hepatitis B	VIR
 Rabies	VIR
 Typhoid	VIR
+African Tick-Bite Fever	VIR
+Dengue	VIR
 Routine vaccines	UZB
 Hepatitis A	UZB
 Hepatitis B	UZB
 Rabies	UZB
 Typhoid	UZB
+Tuberculosis (TB)	UZB
 Routine vaccines	VUT
 Hepatitis A	VUT
 Hepatitis B	VUT
 Malaria	VUT
 Typhoid	VUT
+Dengue	VUT
 Routine vaccines	VEN
 Hepatitis A	VEN
 Hepatitis B	VEN
@@ -1400,6 +1963,8 @@ Malaria	VEN
 Rabies	VEN
 Typhoid	VEN
 Yellow Fever	VEN
+Chagas disease (American Trypanosomiasis)	VEN
+Dengue	VEN
 Routine vaccines	VNM
 Hepatitis A	VNM
 Hepatitis B	VNM
@@ -1408,6 +1973,11 @@ Malaria	VNM
 Rabies	VNM
 Typhoid	VNM
 Yellow Fever	VNM
+Chikungunya	VNM
+Dengue	VNM
+H5N1 Avian Influenza	VNM
+Hand, Foot, &amp; Mouth Disease	VNM
+Tuberculosis (TB)	VNM
 Routine vaccines	WAK
 Hepatitis A	WAK
 Hepatitis B	WAK
@@ -1425,6 +1995,8 @@ Hepatitis B	YEM
 Malaria	YEM
 Rabies	YEM
 Typhoid	YEM
+Chikungunya	YEM
+Dengue	YEM
 Routine vaccines	ZMB
 Cholera	ZMB
 Hepatitis A	ZMB
@@ -1433,6 +2005,12 @@ Malaria	ZMB
 Rabies	ZMB
 Typhoid	ZMB
 Yellow Fever	ZMB
+African Sleeping Sickness (African Trypanosomiasis)	ZMB
+African Tick-Bite Fever	ZMB
+Chikungunya	ZMB
+Dengue	ZMB
+HIV Infection	ZMB
+Tuberculosis (TB)	ZMB
 Routine vaccines	ZWE
 Hepatitis A	ZWE
 Hepatitis B	ZWE
@@ -1440,3 +2018,9 @@ Malaria	ZWE
 Rabies	ZWE
 Typhoid	ZWE
 Yellow Fever	ZWE
+African Sleeping Sickness (African Trypanosomiasis)	ZWE
+African Tick-Bite Fever	ZWE
+Chikungunya	ZWE
+Dengue	ZWE
+HIV Infection	ZWE
+Tuberculosis (TB)	ZWE
