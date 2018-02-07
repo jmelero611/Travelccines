@@ -199,29 +199,6 @@ INSERT INTO `S_effect` VALUES (1,'Stomach pain'),(2,'Feeling tired'),(3,'Headach
 UNLOCK TABLES;
 
 --
--- Table structure for table `Trans_recommendation`
---
-
-DROP TABLE IF EXISTS `Trans_recommendation`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `Trans_recommendation` (
-  `idTrans_recomendation` int(11) NOT NULL,
-  `Trans_text` longtext,
-  PRIMARY KEY (`idTrans_recomendation`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `Trans_recommendation`
---
-
-LOCK TABLES `Trans_recommendation` WRITE;
-/*!40000 ALTER TABLE `Trans_recommendation` DISABLE KEYS */;
-/*!40000 ALTER TABLE `Trans_recommendation` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `Transmission`
 --
 
@@ -244,33 +221,6 @@ LOCK TABLES `Transmission` WRITE;
 /*!40000 ALTER TABLE `Transmission` DISABLE KEYS */;
 INSERT INTO `Transmission` VALUES (0,'varied ',NULL),(1,'Fecal-oral route (contaminated food and water) ',NULL),(2,'Person-to-person contact ',NULL),(3,'Contact with blood and other body fluids',NULL),(4,'Unprotected sex ',NULL),(5,'Injection drug use ',NULL),(6,'Contaminated transfusions ',NULL),(7,'Exposure to human blood ',NULL),(8,'Contaminated tattoo and piercing equipment ',NULL),(9,'Bite of infected mosquito (female Anopheles) ',NULL),(10,'Oral transmission ',NULL),(11,'Fecal-oral route (person-to-person and contaminated food and water) ',NULL),(12,'Mammal bites (including dogs, bats, other carnivores) ',NULL),(13,'Bite of infected mosquitoes ',NULL),(14,'Mammal bites (bats and other carnivores). Canine rabies is not present. ',NULL),(15,'Bites from bats',NULL),(16,'Mammal bites (including dogs, bats, other carnivores). Canine rabies is present but not a significant concern to travelers',NULL),(17,'Bite of infected mosquitoes (primarily Culex) ',NULL),(18,'Fecal-oral route (person-to-person contaminated food and water) ',NULL),(19,'The bite of an infected tsetse fly (Glossina spp.)',NULL),(20,'Contaminated water',NULL),(21,'Bite from R. africae',NULL),(22,'Through feces of an infected triatomine insect (reduviid bug)',NULL),(23,'Bite of an infected tick of the Ixodes species, primarily I. ricinus (European subtype) or I. persulcatus (Siberian and Far Eastern subtypes)',NULL),(24,'Coughs from contagious patient',NULL);
 /*!40000 ALTER TABLE `Transmission` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `Transmission_has_Trans_recommendation`
---
-
-DROP TABLE IF EXISTS `Transmission_has_Trans_recommendation`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `Transmission_has_Trans_recommendation` (
-  `idTransmition` int(11) NOT NULL,
-  `idTrans_recommendation` int(11) NOT NULL,
-  PRIMARY KEY (`idTransmition`,`idTrans_recommendation`),
-  KEY `fk_Transmission_has_Trans_recomendation_Trans_recomendation_idx` (`idTrans_recommendation`),
-  KEY `fk_Transmission_has_Trans_recomendation_Transmission1_idx` (`idTransmition`),
-  CONSTRAINT `fk_Transmission_has_Trans_recomendation_Trans_recomendation1` FOREIGN KEY (`idTrans_recommendation`) REFERENCES `Trans_recommendation` (`idTrans_recomendation`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_Transmission_has_Trans_recomendation_Transmission1` FOREIGN KEY (`idTransmition`) REFERENCES `Transmission` (`idTransmition`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `Transmission_has_Trans_recommendation`
---
-
-LOCK TABLES `Transmission_has_Trans_recommendation` WRITE;
-/*!40000 ALTER TABLE `Transmission_has_Trans_recommendation` DISABLE KEYS */;
-/*!40000 ALTER TABLE `Transmission_has_Trans_recommendation` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -338,4 +288,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-02-07 14:07:09
+-- Dump completed on 2018-02-07 14:16:10
