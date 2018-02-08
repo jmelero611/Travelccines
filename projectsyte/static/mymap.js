@@ -28,7 +28,8 @@ var colors = { 'ebola':"rgb(39, 48, 71)",'dengue':"rgb(39, 48, 71)", 'avian':"rg
 $(document).ready(function(){
     $("button").click(function(){
        var name = $(this).attr("title");
-       var my_string = 'World Disease Map: ' + name;
+       var real_name = $(this).text();
+       var my_string = 'World Disease Map: ' + real_name;
        $("#text-dis").text(my_string);
        var diss = diseases[name];
        var color = colors[name];
