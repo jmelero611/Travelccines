@@ -556,7 +556,7 @@
         </div>
         <!-- INTERACTIVE MAP -->
         <div class="col-md-6">
-<h3 aria-label="A world map illustration">World Disease Map</h3>
+<h3 id='text-dis' aria-label="A world map illustration">World Disease Map</h3>
 <div class="world" id="map-container">
 	<?php include ('include/map.php'); ?>
         </div>
