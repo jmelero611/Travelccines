@@ -155,7 +155,17 @@ if ($_GET['oricoun']){
 
 #std_print_table($q_vaccine, $conn, $q_track);
 
-var_dump(vaccine_complete_hash($q_vaccine, $conn));
+foreach(vaccine_complete_hash($q_vaccine, $conn) as $dis => $vacs){
+	print($dis . '=> <br>');
+	foreach ($vacs as $v => $information) {
+		print("------------------------".$v.'<br>');
+		foreach ($information as $name => $value) {
+			print("------------------------++++++++++++++++++".$name. ' => ');
+			print_r($value);
+			print("<br>");
+		}
+	}
+}
 $map = mapa_del_pais($num_to_three[$_GET['desticoun']], $conn);
 print($map);
 ?>
