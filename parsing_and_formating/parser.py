@@ -180,6 +180,28 @@ def get_maps(country):
     chdir('maps')
     system('wget https://wwwnc.cdc.gov/travel/images/map-%s.png' %country)
     chdir('..')
+def CRec(pais):
+    div_flags = [1]
+    start = None
+    r = '<div class="row">'
+    url = 'https://wwwnc.cdc.gov/travel/destinations/traveler/none/%s' %pais
+    for line in url_to_html(url):
+        line = line.strip()
+        if re.search(r'<div id="stay-healthy-and-safe"', line):
+            r += line
+            start = 'yes'
+            continue
+        if len(div_flags) == 0 and start:
+            break
+        elif start:
+            r += line
+            if re.search(r'<div', line):
+                div_flags.append('otro')
+            if re.search(r'</div>', line):
+                div_flags.pop()
+            continue
+    r += '</div>'
+    return r
 def save_tables(dhasc = False, country_table = False, c_has_rec = False, disease_table = False, d_has_t = False,
                 c_rec_table = False, trans_table = False, c_in_disease = False):
     if not path.isdir('tables'):
@@ -191,7 +213,7 @@ def save_tables(dhasc = False, country_table = False, c_has_rec = False, disease
                 dc.write('%s\t%s\n' %(dc_pair[0], dc_pair[1]))
     if country_table:
         with open('tables/country.tbl', "w") as c:
-            c.write('idCountry\tCountry_name\tmap\tDevelopment\n')
+            c.write('idCountry\tCountry_name\tmap\tCRecommendations\n')
             for country in country_table:
                 c.write('%s\t%s\t%s\t%s\n' %(country[0], country[1], country[2], country[3]))
     if c_has_rec:
@@ -226,7 +248,6 @@ def save_tables(dhasc = False, country_table = False, c_has_rec = False, disease
                 cid.write('%s: %s\n' %(dis, c_in_disease[dis]))
                 union = union.union( c_in_disease[dis])
             cid.write('Union\t%s\n' %union)
-
 def dict_three_to_num():
     ttn = {}
     with open('countris_iso_table.tbl', 'r') as t_to_numm:
@@ -235,7 +256,6 @@ def dict_three_to_num():
             line = line.split('\t')
             ttn[line[2][:-1]] = int(line[3])
     return ttn
-
 def html_to_table(list_of_countries):
     name_to_three = dict_name_to_three()
     three_to_num = dict_three_to_num()
@@ -274,7 +294,9 @@ def html_to_table(list_of_countries):
                                 recomendation != 'Travelers should: ' and recomendation != 'Helpful resources ':
                     c_has_rec.append((index, name_to_three[country]))
         #get_maps(country)
-        country_table.append((name_to_three[country], country, 'maps/map-%s' %country, 1))
+
+        country_table.append((name_to_three[country], country, 'maps/map-%s' %country, CRec(country)))
+
 
     save_tables(dhasc = d_has_c, country_table = country_table, c_has_rec = c_has_rec, disease_table = diseases_table,
                 d_has_t = d_has_t, c_rec_table = c_rec, trans_table = trans_table, c_in_disease = countries_in_disease)
