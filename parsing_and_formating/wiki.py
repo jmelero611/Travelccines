@@ -18,11 +18,12 @@ def wiki(country):
     box_flag = None
     pop_flag = None
     ar_flag = None
+    curr_flag = None
     print(country)
     url = 'https://en.wikipedia.org/wiki/%s' %country
     for linia in url_to_html(url):
         linia = linia.strip()
-        #print(linia)
+        print(linia)
         if box_flag:
             if re.search(r'>Capital<', linia) and cap_flag is None:
                 cap_flag = 'Ys'
@@ -36,7 +37,7 @@ def wiki(country):
                 ar_flag = 'Ys'
                 print('   Area')
             elif ar_flag:
-                match2 = re.search(r'(([0-9]{3}|[0-9]{2})\,[0-9]{3})', linia)
+                match2 = re.search(r'(([0-9]{1,3})\,[0-9]{0,3})', linia)
                 if match2:
                     print("        %s"%match2.group(1))
                     ar_flag = False
@@ -46,12 +47,20 @@ def wiki(country):
             elif pop_flag:
                 match3 = re.search(r'(([0-9]{1,3})(\,[0-9]{3}){1,})', linia)
                 if match3:
-                    print("       %s"%match3.group(1))
+                    print("        %s"%match3.group(1))
                     pop_flag = False
+            if re.search(r'>Currency<', linia) and curr_flag is None:
+                print('   Currency')
+                curr_flag = 'Ys'
+            elif curr_flag:
+                match4 = re.search(r'">([A-z]{1,4})</a>', linia)
+                if match4:
+                    print("        %s" % match4.group(1))
+                    curr_flag = False
+            if re.search(r'</table', linia):
+                break
         elif re.search(r'<table class="infobox geography vcard"', linia):
             box_flag = 'Ys'
-        else:
-            continue
 
 
 
