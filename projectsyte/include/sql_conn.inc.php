@@ -7,6 +7,6 @@ $password = "hla_ii_pockets";
 $conn = new mysqli($servername, $username, $password);
 // Check connection
 if (!$conn) { die("Connection failed: " . mysqli_connect_error());}
-print "Connected successfully<br>";
+//print "Connected successfully<br>";
 mysqli_query($conn, "USE traveccines_db");
-echo "Conected to db <br>";
+//echo "Conected to db <br>";
