@@ -27,7 +27,6 @@ function Wiki($pais, $conn){
 
 }
 function print_CRec_table($pais, $conn){
-    print('<table cellspacing="2" cellpadding="4" width="80%" class="table table-striped"><tr><th>Country Recomendations</th></tr>');
     $q_coun_rec = "SELECT c.CRecommendations FROM Country c WHERE c.idCountry = '" .$pais. "';" ;
     $coun_rec = mysqli_query($conn, $q_coun_rec);
     while($linea = mysqli_fetch_assoc($coun_rec)){
@@ -37,7 +36,7 @@ function print_CRec_table($pais, $conn){
 function std_print_table($query, $conn, $head){
     $mysql_handl = mysqli_query($conn, $query);
     print '<h1>Table</h1>';
-    print('<table cellspacing="2" cellpadding="4" width="80%" class="table table-striped"><tr>');
+    print('<table cellspacing="2" cellpadding="4" width="80%" class="table_info"><tr>');
     foreach($head as $h){
         print('<th>'.$h.'</th>');
     }
@@ -109,6 +108,8 @@ require_once "include/sql_conn.inc.php";
     <!-- Custom styles for this template -->
     <link href="static/custom.css" rel="stylesheet">
     <link href="static/traveccines.css" rel="stylesheet">
+    <link href="static/tables.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style></style></head>
   <body>
 
@@ -116,17 +117,8 @@ require_once "include/sql_conn.inc.php";
         <?php include ('include/heading.php'); ?>
     </header>
 
-    <div class="row myspacing mybg align-items-center">
-        <div class="col-md-1 col-sm-1"></div>
-        <div class="col-md-7 col-sm-6">
-        <h1 class="white-text">Traveccines</h1>
-        <p class="lead white-text">Beign safe while travelling is one click away from you.</p>
-      </div>
-      <div class="col-md-4 col-sm-5">
-        <img class="img-fluid mx-auto" alt="logo" src="static/logo.png">
-      </div>
-    </div>
-    <div class="container-fluid">
+
+<div class="container-fluid">
 
 <?php
 $q_vaccine = 'SELECT v.vaccine_name, v.disease_name, d.Drecommendations ';
@@ -160,7 +152,7 @@ if ($q_non_vaccinable){
 if ($_GET['oricoun']){
     $q_vaccine .= "AND cd.disease_name NOT IN ( SELECT cd.disease_name FROM Country_has_Diseases cd, Country c WHERE c.idCountry = '". $num_to_three[$_GET['oricoun']] ."' AND c.idCountry = cd.idCountry)";
     $se_supone_tienes = "SELECT DISTINCT v.vaccine_name, v.disease_name FROM Country c, Country_has_Diseases cd, Diseases d, S_effect s, Vaccines v, Vaccines_has_S_effect vs WHERE c.idCountry = cd.idCountry AND d.disease_name = cd.disease_name AND v.disease_name = d.disease_name AND v.vaccine_name = vs.vaccine_name AND vs.idEffect = s.idEffect AND c.idCountry = '" . $num_to_three[$_GET['oricoun']] ."' AND cd.disease_name IN ( SELECT cd.disease_name FROM Country_has_Diseases cd, Country c WHERE c.idCountry = '". $num_to_three[$_GET['desticoun']] ."' AND c.idCountry = cd.idCountry) AND v.status = 'Licensed'";
-    #std_print_table($se_supone_tienes, $conn,['Vaccine Name','Disease'] );
+    std_print_table($se_supone_tienes, $conn,['Vaccine Name','Disease'] );
 }
 
 #std_print_table($q_vaccine, $conn, $q_track);
@@ -170,4 +162,23 @@ print($map);
 ?>
 </div>
 </body>
+<!-- FOOTER -->
+  <footer class="container myspacing">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>2017-2018 DBW Python Lovers.</p>
+  </footer>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="static/jquery-3.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="static/popper.js"></script>
+<script src="static/bootstrap.js"></script>
+<!-- Custom Java script -->
+<script src="static/tables.js"></script>
+<script src="static/locura.js"></script>
+<script src="static/locura2.js"></script>
+</html>
+
 </html>
