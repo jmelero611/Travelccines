@@ -170,7 +170,7 @@ require_once "include/sql_conn.inc.php";
 if($_GET['desticoun'] == 10){
     exit('<br><div class="container"><h1 style="font-size:3rem;">We do not have information about the Antartica, Antartica is only for penguins anyways.</h1><br><br><img src="static/antartica.jpg" style="width:65%;margin-left:auto;margin-right:auto;display:block;"></div>');
 }elseif($_GET['desticoun'] == 840){
-    exit('<br><div class="container"><h1 style="font-size:3rem;">You gotta be kidding, the great United States of America do not have those filthy diseases.</h1></div>');
+    exit('<br><div class="container"><h1 style="font-size:2.5rem;">The great United States of America does not have those filthy diseases, but we do not want you to infest our country</h1><br><br><img src="static/sam.jpg" style="width:45%;margin-left:auto;margin-right:auto;display:block;"></div>');
 }
 if($_GET['oricoun']){
     print('<br><div class="container"><h1><b>Necessary prophylaxis information to travel from ' .$num_to_three[$_GET['oricoun']].' to '.$num_to_three[$_GET['desticoun']].'</b></h1></div>');
