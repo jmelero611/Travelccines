@@ -36,6 +36,7 @@
     float: left;
     border: 1px solid black;
     cursor: pointer;
+    width: 150px;
 }
 
 .world{

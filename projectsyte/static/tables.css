@@ -1,0 +1,47 @@
+
+.table_info {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table_info td, .table_info th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table_info tr:nth-child(even){background-color: #f2f2f2;}
+
+.table_info tr:hover {background-color: #ddd;}
+
+.table_info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #48037a;
+    color: white;
+}
+.show, .hide {
+    cursor: pointer;
+}
+.show:hover, .hide:hover {
+    color: orange;
+}
+
+.sub_section_head{
+    background-color: #48037a;
+    color: white;
+}
+h3{
+    margin-left: 15px;
+}
+.button-toggle{
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    color: white;
+}
+
+.button-toggle:hover {
+    color: orange;
+}
