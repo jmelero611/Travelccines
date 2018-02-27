@@ -560,6 +560,7 @@
 <div class="world" id="map-container">
 	<?php include ('include/map.php'); ?>
         </div>
+        <div style="margin-left: 50px">
          <button class ="dis-butt" title="cholera" type="button">Cholera</button> 
          <button class ="dis-butt" title="hepa" type="button">Hepatitis A</button> 
          <button class ="dis-butt" title="hepb" type="button">Hepatitis B</button> 
@@ -569,12 +570,12 @@
          <button class ="dis-butt" title="typhoid" type="button">Typhoid</button> 
          <button class ="dis-butt" title="fever" type="button">Yellow Fever</button> 
          <button class ="dis-butt" title="meningitis" type="button">Meningitis</button> 
-         <button class ="dis-butt" title="encepha" type="button">Japanese Encephalitis</button>
+         <button class ="dis-butt" title="encepha" type="button">Japanese Encep.</button>
          <button class ="dis-butt" title="dengue" type="button">Dengue</button>
          <button class ="dis-butt" title="avian" type="button">Avian Influenza</button>
          <button class ="dis-butt" title="tuber" type="button">Tuberculosis</button> 
-         <button class ="dis-butt" title="tick" type="button">Tickborne Encephalitis</button>
-         <button class ="dis-butt" title="sleep" type="button">Sleeping Sickness</button>
+         <button class ="dis-butt" title="tick" type="button">Tickborne Encep.</button>
+         <button class ="dis-butt" title="sleep" type="button">Sleeping Sick.</button>
          <button class ="dis-butt" title="tick_fever" type="button">Tick-Bite Fever</button> 
          <button class ="dis-butt" title="chiku" type="button">Chikungunya</button>
          <button class ="dis-butt" title="aids" type="button">VIH</button>
@@ -582,13 +583,14 @@
          <button class ="dis-butt" title="ebola" type="button">Ebola</button>      
     </div>
 </div>
+</div>
 <div id="mapping" class="map-popup" style="left:621px;top:1127px"></div>
 </body>
 
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>2017-2018 DBW Python Lovers · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        <p>2017-2018 DBW Python Lovers.</p>
       </footer>
 
 
