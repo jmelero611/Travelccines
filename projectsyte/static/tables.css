@@ -14,6 +14,12 @@
 
 .table_info tr:hover {background-color: #ddd;}
 
+.table_info tr.inner:nth-child(even){background-color: #8aceae;}
+
+.table_info tr.inner:nth-child(odd){background-color: #c5ddd2;}
+
+.table_info tr.inner:hover {background-color: #9cbaac;}
+
 .table_info th {
     padding-top: 12px;
     padding-bottom: 12px;
