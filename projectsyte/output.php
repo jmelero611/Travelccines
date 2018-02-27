@@ -18,11 +18,15 @@ function mapa_del_pais($pais, $conn){
 function Wiki($pais, $conn){
     $q_wiki = "SELECT w.* FROM Wiki w, Country c WHERE c.country_name = w.country_name AND c.idCountry = '" . $pais . "';";
     $mysql_handl = mysqli_query($conn, $q_wiki);
-
-    while($linea = mysqli_fetch_assoc($mysqli_query)){
-        foreach ($linea as $key => $value){
-            print $key . "=>". $value . "<br><br>";
-        }
+    print '<div class="container myspacing"><div class="row" style="margin-left:0">';
+    $map = mapa_del_pais($pais, $conn);
+    print($map);
+    while($linea = mysqli_fetch_assoc($mysql_handl)){
+         print '<ul style="font-size: 1.3rem;"><li>Name : '. $linea['country_name'].'</li><li>Population : '.$linea['population'].'</li>
+            <li>Area : '.$linea['area']. ' km<sup>2</sup></li><li>Currency : '.$linea['currency']. '</li>
+            </ul>
+        </div>
+        </div>';
     }
 
 }
@@ -35,7 +39,6 @@ function print_CRec_table($pais, $conn){
 }
 function std_print_table($query, $conn, $head){
     $mysql_handl = mysqli_query($conn, $query);
-    print '<h1>Table</h1>';
     print('<table cellspacing="2" cellpadding="4" width="80%" class="table_info"><tr>');
     foreach($head as $h){
         print('<th>'.$h.'</th>');
@@ -60,6 +63,7 @@ function vaccine_simple_hash($query, $conn){
         }else{
             $hash[$linea['disease_name']]['vaccines'] = [$linea['vaccine_name']];
             $hash[$linea['disease_name']]['Drecommendations'] = $linea['Drecommendations'];
+            $hash[$linea['disease_name']]['Transmission'] = $linea['trans_name'];
         }
     }
     return $hash;
@@ -70,22 +74,60 @@ function vaccine_complete_hash($query, $conn){
     $hash = Array();
     while($linea = mysqli_fetch_assoc($mysql_handl)){
         if (isset($hash[$linea['disease_name']])){
-            if (isset($hash[$linea['disease_name']][$linea['vaccine_name']])){
-                if(!in_array( $linea['vaccine_recomendations'], $hash[$linea['disease_name']][$linea['vaccine_name']]['vaccine_recomendations'])){
-                    array_push($hash[$linea['disease_name']][$linea['vaccine_name']]['vaccine_recomendations'], $linea['vaccine_recomendations']);
+            if (isset($hash[$linea['disease_name']]['vaccines'][$linea['vaccine_name']])){
+                if(!in_array( $linea['vaccine_recomendations'], $hash[$linea['disease_name']]['vaccines'][$linea['vaccine_name']]['vaccine_recomendations'])){
+                    array_push($hash[$linea['disease_name']]['vaccines'][$linea['vaccine_name']]['vaccine_recomendations'], $linea['vaccine_recomendations']);
                 }
-                if(!in_array($linea['Seffect_text'], $hash[$linea['disease_name']][$linea['vaccine_name']]['Side Effect'])){
-                    array_push($hash[$linea['disease_name']][$linea['vaccine_name']]['Side Effect'], $linea['Seffect_text']);
+                if(!in_array($linea['Seffect_text'], $hash[$linea['disease_name']]['vaccines'][$linea['vaccine_name']]['Side Effect'])){
+                    array_push($hash[$linea['disease_name']]['vaccines'][$linea['vaccine_name']]['Side Effect'], $linea['Seffect_text']);
                 }
             }else{
-                $hash[$linea['disease_name']][$linea['vaccine_name']] = array("vaccine_recomendations" => [$linea['vaccine_recomendations']], "Side Effect" =>[$linea['Seffect_text']]);
+                $hash[$linea['disease_name']]['vaccines'][$linea['vaccine_name']] = array("vaccine_recomendations" => [$linea['vaccine_recomendations']], "Side Effect" =>[$linea['Seffect_text']]);
             }
         }else{
-            $hash[$linea['disease_name']][$linea['vaccine_name']] = array("vaccine_recomendations" => [$linea['vaccine_recomendations']], "Side Effect" =>[$linea['Seffect_text']]);
+            $hash[$linea['disease_name']]['vaccines'] = array([$linea['vaccine_name']] => array("vaccine_recomendations" => [$linea['vaccine_recomendations']], "Side Effect" =>[$linea['Seffect_text']]));
             $hash[$linea['disease_name']]['Drecommendations'] = $linea['Drecommendations'];
+            $hash[$linea['disease_name']]['Transmission'] = $linea['trans_name'];
         }
     }
     return $hash;
+}
+function print_simple_hash($query, $conn){
+    $info_hash = vaccine_simple_hash($query, $conn);
+    print('<div class="container"><table class="table_info"><thead><tr><th>Disease name</th><th>Vaccines</th><th>Transmission</th><th>Dhis is Recomendations</th></tr></thead>');
+    foreach($info_hash as $key => $value){
+        print '<tr><td>'.$key.'</td><td><ul>';
+        foreach ($value['vaccines'] as $vaccine) {
+            print('<li>'.$vaccine.'</li>');
+        }
+        print('</ul></td><td style="font-size:0.8rem;">'. $value['Transmission'].'</td><td style="font-size:0.8rem;text-align:justify;text-justify: inter-word;width:55%;">'.$value['Drecommendations'].'</td></tr>');
+    }
+    print('</table></div>');
+}
+function print_complete_hash($query, $conn){
+    $info_hash = vaccine_complete_hash($query, $conn);
+    $count = 0;
+    print('<div class="container"><table class="table_info"><thead><tr><th>Disease name</th><th>Vaccines</th><th>Transmission</th><th>Dhis is Recomendations</th></tr></thead>');
+    foreach($info_hash as $key => $value){
+        $count = $count + 1;
+        print '<tr><td>'.$key.'</td><td><ul>';
+        foreach ($value['vaccines'] as $vaccine => $information) {
+            print('<li>'.$vaccine.'</li>');
+        }
+        print('<li>More information  <i id="show'.$count.'" class="show fa fa-plus-circle" where="'.$count.'" style="font-size:20px;"></i><i id="hide'.$count.'" class="hide fa fa-minus-circle" where="'.$count.'" style="font-size:20px;display:none;"></li></ul></td><td style="font-size:0.8rem;">'. $value['Transmission'].'</td><td style="font-size:0.8rem;text-align:justify;text-justify: inter-word;width:55%;">'.$value['Drecommendations'].'</td></tr>');
+        print('<tr class="row'.$count.'" style="display: none;"><th>Vaccine</th><th colspan="2">Vaccine Recommendation</th><th >Side effects</th></tr>');
+        foreach ($value['vaccines'] as $vaccine => $information) {
+            print('<tr class="row'.$count.' inner" style="display: none;">');
+            print('<td>'.$vaccine.'</td><td  colspan="2">'.$information["vaccine_recomendations"][0].'</td><td><ul>');
+            foreach ($information['Side Effect'] as $sefect) {
+                print('<li>'. $sefect.'</li>');
+            }
+            print('</ul></tr>');
+
+        }
+
+    }
+    print('</table></div>');
 }
 require_once "include/globals.inc.php";
 require_once "include/sql_conn.inc.php";
@@ -118,11 +160,11 @@ require_once "include/sql_conn.inc.php";
     </header>
 
 
-<div class="container-fluid">
 
 <?php
-$q_vaccine = 'SELECT v.vaccine_name, v.disease_name, d.Drecommendations ';
-$q_track = ['Vaccine Name', 'Disease', 'Disease Recomendations'];
+Wiki($num_to_three[$_GET['desticoun']], $conn);
+$q_vaccine = 'SELECT v.vaccine_name, v.disease_name, d.Drecommendations, t.trans_name ';
+$q_track = ['Vaccine Name', 'Disease', 'Disease Recomendations', 'Transmission'];
 
 
 if (isset($_GET['all-info-check'])){
@@ -131,14 +173,16 @@ if (isset($_GET['all-info-check'])){
 
 }
 
-$q_vaccine .= "FROM Country c, Country_has_Diseases cd, Diseases d, S_effect s, Vaccines v, Vaccines_has_S_effect vs WHERE c.idCountry = cd.idCountry AND d.disease_name = cd.disease_name AND v.disease_name = d.disease_name AND v.vaccine_name = vs.vaccine_name AND vs.idEffect = s.idEffect AND c.idCountry = '".$num_to_three[$_GET['desticoun']]."' ";
+$q_vaccine .= "FROM Country c, Country_has_Diseases cd, Diseases d, S_effect s, Vaccines v, Vaccines_has_S_effect vs, Transmission t, Diseases_has_Transmission dt WHERE c.idCountry = cd.idCountry AND d.disease_name = cd.disease_name AND v.disease_name = d.disease_name AND v.vaccine_name = vs.vaccine_name AND vs.idEffect = s.idEffect AND d.disease_name = dt.disease_name AND t.idTransmition = dt.idTransmission AND c.idCountry = '".$num_to_three[$_GET['desticoun']]."' ";
 
 if (!isset($_GET['research-check'])){
     echo "The option to show vaccines that are in research is on<br>";
     $q_vaccine .= "AND v.status = 'Licensed' ";
 }
 if (isset($_GET['recomm-check'])){
+    print('<div class="container"><h3>Prophylactic Recommendations</h3>');
     print_CRec_table($num_to_three[$_GET['desticoun']], $conn);
+    print('<br></div>');
 }
 if (!isset($_GET['non-vacc-chec'])){
     $q_vaccine .= "AND d.vaccine = 'yes' ";
@@ -147,18 +191,23 @@ else {
     $q_non_vaccinable = "SELECT DISTINCT d.disease_name, t.trans_name FROM Country c, Country_has_Diseases cd, Diseases d, Transmission t, Diseases_has_Transmission dt WHERE c.idCountry = cd.idCountry AND d.disease_name = cd.disease_name AND d.vaccine = 'no' AND d.disease_name = dt.disease_name AND t.idTransmition = dt.idTransmission AND c.idCountry = '" .$num_to_three[$_GET['desticoun']]."';";
 }
 if ($q_non_vaccinable){
+    print('<div class="container"><h3>Non Vaccinable</h3>');
     std_print_table($q_non_vaccinable, $conn, ['Disease_name', 'Transmission']);
+    print('<br></div>');
 }
 if ($_GET['oricoun']){
     $q_vaccine .= "AND cd.disease_name NOT IN ( SELECT cd.disease_name FROM Country_has_Diseases cd, Country c WHERE c.idCountry = '". $num_to_three[$_GET['oricoun']] ."' AND c.idCountry = cd.idCountry)";
     $se_supone_tienes = "SELECT DISTINCT v.vaccine_name, v.disease_name FROM Country c, Country_has_Diseases cd, Diseases d, S_effect s, Vaccines v, Vaccines_has_S_effect vs WHERE c.idCountry = cd.idCountry AND d.disease_name = cd.disease_name AND v.disease_name = d.disease_name AND v.vaccine_name = vs.vaccine_name AND vs.idEffect = s.idEffect AND c.idCountry = '" . $num_to_three[$_GET['oricoun']] ."' AND cd.disease_name IN ( SELECT cd.disease_name FROM Country_has_Diseases cd, Country c WHERE c.idCountry = '". $num_to_three[$_GET['desticoun']] ."' AND c.idCountry = cd.idCountry) AND v.status = 'Licensed'";
+    print('<div class="container"><h3>Vaccines you may already have</h3>');
     std_print_table($se_supone_tienes, $conn,['Vaccine Name','Disease'] );
+    print('<br></div>');
 }
 
 #std_print_table($q_vaccine, $conn, $q_track);
-var_dump(vaccine_complete_hash($q_vaccine, $conn));
-$map = mapa_del_pais($num_to_three[$_GET['desticoun']], $conn);
-print($map);
+#var_dump(vaccine_simple_hash($q_vaccine, $conn));
+print_complete_hash($q_vaccine, $conn);
+
+
 ?>
 </div>
 </body>
