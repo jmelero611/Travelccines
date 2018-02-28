@@ -20,6 +20,15 @@ function Wiki($pais, $conn){
         $map = mapa_del_pais($pais, $conn);
         print($map);
         while($linea = mysqli_fetch_assoc($mysql_handl)){
+            if(!$linea['population']){
+                $linea['population'] = 'Unknown';
+            }
+            if(!$linea['currency']){
+                $linea['currency'] = 'Unknown';
+            }
+            if(!$linea['area']){
+                $linea['area'] = 'Unknown';
+            }
              print '<ul style="font-size: 1.3rem;"><li>Name : '. $linea['country_name'].'</li><li>Population : '.$linea['population'].'</li>
                 <li>Area : '.$linea['area']. ' km<sup>2</sup></li><li>Currency : '.$linea['currency']. '</li>
                 </ul>
@@ -97,7 +106,7 @@ function vaccine_complete_hash($query, $conn){
 }
 function print_simple_hash($query, $conn){
     $info_hash = vaccine_simple_hash($query, $conn);
-    print('<div class="container"><table class="table_info"><thead><tr><th>Disease name</th><th>Vaccines</th><th>Transmission</th><th>Dhis is Recomendations</th></tr></thead>');
+    print('<div class="container"><h3>Vaccinable diseases</h3><table class="table_info"><thead><tr><th>Disease name</th><th>Vaccines</th><th>Transmission</th><th>Dhis is Recomendations</th></tr></thead>');
     foreach($info_hash as $key => $value){
         print '<tr><td>'.$key.'</td><td><ul>';
         foreach ($value['vaccines'] as $vaccine) {
@@ -111,7 +120,7 @@ function print_complete_hash($query, $conn){
     $info_hash = vaccine_complete_hash($query, $conn);
     $count = 0;
     if($info_hash){
-        print('<div class="container"><table class="table_info"><thead><tr><th>Disease name</th><th>Vaccines</th><th>Transmission</th><th>Dhis is Recomendations</th></tr></thead>');
+        print('<div class="container"><h3>Vaccinable diseases</h3><table class="table_info"><thead><tr><th>Disease name</th><th>Vaccines</th><th>Transmission</th><th>Dhis is Recomendations</th></tr></thead>');
         foreach($info_hash as $key => $value){
             $count = $count + 1;
             print '<tr><td>'.$key.'</td><td><ul>';
@@ -163,12 +172,9 @@ require_once "include/sql_conn.inc.php";
     <header>
         <?php include ('include/heading.php'); ?>
     </header>
-
-
-
 <?php
 if($_GET['desticoun'] == 10){
-    exit('<br><div class="container"><h1 style="font-size:3rem;">We do not have information about the Antartica, Antartica is only for penguins anyways.</h1><br><br><img src="static/antartica.jpg" style="width:65%;margin-left:auto;margin-right:auto;display:block;"></div>');
+    exit('<br><div class="container"><h1 style="font-size:3rem;">We do not have information about the Antartica, Antartica is only for penguins anyway.</h1><br><br><img src="static/antartica.jpg" style="width:65%;margin-left:auto;margin-right:auto;display:block;"></div>');
 }elseif($_GET['desticoun'] == 840){
     exit('<br><div class="container"><h1 style="font-size:2.5rem;">The great United States of America does not have those filthy diseases, but we do not want you to infest our country</h1><br><br><img src="static/sam.jpg" style="width:45%;margin-left:auto;margin-right:auto;display:block;"></div>');
 }
@@ -181,16 +187,12 @@ if($_GET['oricoun']){
 Wiki($num_to_three[$_GET['desticoun']], $conn);
 $q_vaccine = 'SELECT v.vaccine_name, v.disease_name, d.Drecommendations, t.trans_name ';
 $q_track = ['Vaccine Name', 'Disease', 'Disease Recomendations', 'Transmission'];
-
-
 if (isset($_GET['all-info-check'])){
     $q_vaccine .= ', v.vaccine_recomendations, s.Seffect_text ';
     array_push($q_track, 'Vaccine Recomendations', 'Side Effects');
 
 }
-
 $q_vaccine .= "FROM Country c, Country_has_Diseases cd, Diseases d, S_effect s, Vaccines v, Vaccines_has_S_effect vs, Transmission t, Diseases_has_Transmission dt WHERE c.idCountry = cd.idCountry AND d.disease_name = cd.disease_name AND v.disease_name = d.disease_name AND v.vaccine_name = vs.vaccine_name AND vs.idEffect = s.idEffect AND d.disease_name = dt.disease_name AND t.idTransmition = dt.idTransmission AND c.idCountry = '".$num_to_three[$_GET['desticoun']]."' ";
-
 if (!isset($_GET['research-check'])){
     $q_vaccine .= "AND v.status = 'Licensed' ";
 }
@@ -205,14 +207,13 @@ if (!isset($_GET['non-vacc-chec'])){
     $q_non_vaccinable = "SELECT DISTINCT d.disease_name, t.trans_name FROM Country c, Country_has_Diseases cd, Diseases d, Transmission t, Diseases_has_Transmission dt WHERE c.idCountry = cd.idCountry AND d.disease_name = cd.disease_name AND d.vaccine = 'no' AND d.disease_name = dt.disease_name AND t.idTransmition = dt.idTransmission AND c.idCountry = '" .$num_to_three[$_GET['desticoun']]."';";
 }
 if ($q_non_vaccinable){
-    std_print_table($q_non_vaccinable, $conn, ['Disease_name', 'Transmission'], 'Non Vaccinable');
+    std_print_table($q_non_vaccinable, $conn, ['Disease_name', 'Transmission'], 'Non-Vaccinable diseases');
 }
 if ($_GET['oricoun']){
     $q_vaccine .= "AND cd.disease_name NOT IN ( SELECT cd.disease_name FROM Country_has_Diseases cd, Country c WHERE c.idCountry = '". $num_to_three[$_GET['oricoun']] ."' AND c.idCountry = cd.idCountry)";
     $se_supone_tienes = "SELECT DISTINCT v.vaccine_name, v.disease_name FROM Country c, Country_has_Diseases cd, Diseases d, S_effect s, Vaccines v, Vaccines_has_S_effect vs WHERE c.idCountry = cd.idCountry AND d.disease_name = cd.disease_name AND v.disease_name = d.disease_name AND v.vaccine_name = vs.vaccine_name AND vs.idEffect = s.idEffect AND c.idCountry = '" . $num_to_three[$_GET['oricoun']] ."' AND cd.disease_name IN ( SELECT cd.disease_name FROM Country_has_Diseases cd, Country c WHERE c.idCountry = '". $num_to_three[$_GET['desticoun']] ."' AND c.idCountry = cd.idCountry) AND v.status = 'Licensed'";
     std_print_table($se_supone_tienes, $conn,['Vaccine Name','Disease'], 'Vaccines you may already have' );
 }
-
 if (isset($_GET['all-info-check'])){
 #std_print_table($q_vaccine, $conn, $q_track);
 #var_dump(vaccine_simple_hash($q_vaccine, $conn));
@@ -228,8 +229,6 @@ if (isset($_GET['all-info-check'])){
     <p class="float-right"><a href="#">Back to top</a></p>
     <p>2017-2018 DBW Python Lovers.</p>
   </footer>
-
-
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
