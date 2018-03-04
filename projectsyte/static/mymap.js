@@ -24,7 +24,7 @@ var all = [512, 4, 516, 8, 520, 12, 524, 16, 528, 531, 20, 533, 24, 28, 540, 31,
 
 
 var diseases = {'cholera':cholera, 'hepa':hepa, 'hepb':hepb, 'malaria':malaria, 'polio':polio, 'rabies':rabies,'typhoid':typhoid, 'fever':fever, 'encepha':encepha, 'meningitis':meningitis,'dengue':dengue, 'avian':avian, 'tuber': tuber, 'tick': tick, 'sleep': sleep, 'tick_fever' : tick_fever, 'chiku': chiku, 'aids': aids,'chagas':chagas, 'ebola': ebola };
-var colors = { 'ebola':"rgb(39, 48, 71)",'dengue':"rgb(39, 48, 71)", 'avian':"rgb(39, 48, 71)", 'tuber':"rgb(39, 48, 71)", 'tick':"rgb(39, 48, 71)",'sleep':"rgb(39, 48, 71)", 'tick_fever':"rgb(39, 48, 71)", 'chiku':"rgb(39, 48, 71)", 'aids':"rgb(39, 48, 71)", 'chagas':"rgb(39, 48, 71)",	'cholera':"rgb(198, 65, 65)", 'hepa':"rgb(224, 154, 74)", 'hepb':"rgb(224, 204, 74)", 'malaria':"rgb(118, 216, 75)", 'polio':"rgb(78, 118, 219)", 'rabies':"rgb(39, 48, 71)", 'typhoid':"rgb(167, 234, 91)", 'fever':"rgb(239, 239, 50)", 'encepha':"rgb(198, 126, 247)", 'meningitis':"rgb(105, 219, 239)" };
+var colors = { 'ebola':"rgb(179, 66, 244)",'dengue':"rgb(242, 207, 9)", 'avian':"rgb(147, 90, 39)", 'tuber':"rgb(234, 25, 25)", 'tick':"rgb(87, 214, 23)",'sleep':"rgb(70, 8, 102)", 'tick_fever':"rgb(7, 8, 102)", 'chiku':"rgb(103, 232, 234)", 'aids':"rgb(249, 59, 218)", 'chagas':"rgb(153, 148, 84)",  'cholera':"rgb(198, 65, 65)", 'hepa':"rgb(224, 154, 74)", 'hepb':"rgb(224, 204, 74)", 'malaria':"rgb(118, 216, 75)", 'polio':"rgb(78, 118, 219)", 'rabies':"rgb(39, 48, 71)", 'typhoid':"rgb(167, 234, 91)", 'fever':"rgb(239, 239, 50)", 'encepha':"rgb(198, 126, 247)", 'meningitis':"rgb(105, 219, 239)" };
 $(document).ready(function(){
     $("button").click(function(){
        var name = $(this).attr("title");
@@ -33,6 +33,10 @@ $(document).ready(function(){
        $("#text-dis").text(my_string);
        var diss = diseases[name];
        var color = colors[name];
+       $('.dis-butt').each(function() {
+        $(this).css("background-color","#e7e7e7");
+        });
+       $(this).css("background-color","#008CBA")
        for (var i = 0; i < all.length; i++) {
             $('#' + all[i]).css("fill","rgb(240,240,240)");
         }
