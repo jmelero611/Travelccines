@@ -209,7 +209,7 @@ if (!isset($_GET['non-vacc-chec'])){
     $q_non_vaccinable = "SELECT DISTINCT d.disease_name, t.trans_name FROM Country c, Country_has_Diseases cd, Diseases d, Transmission t, Diseases_has_Transmission dt WHERE c.idCountry = cd.idCountry AND d.disease_name = cd.disease_name AND d.vaccine = 'no' AND d.disease_name = dt.disease_name AND t.idTransmition = dt.idTransmission AND c.idCountry = '" .$num_to_three[$_GET['desticoun']]."';";
 }
 if ($q_non_vaccinable){
-    std_print_table($q_non_vaccinable, $conn, ['Disease_name', 'Transmission'], 'Non-Vaccinable diseases');
+    std_print_table($q_non_vaccinable, $conn, ['Disease name', 'Transmission'], 'Non-Vaccinable diseases');
 }
 if ($_GET['oricoun']){
     $q_vaccine .= "AND cd.disease_name NOT IN ( SELECT cd.disease_name FROM Country_has_Diseases cd, Country c WHERE c.idCountry = '". $num_to_three[$_GET['oricoun']] ."' AND c.idCountry = cd.idCountry)";
