@@ -1,5 +1,7 @@
 
 <?php
+error_reporting(None);
+ini_set('display_errors', 0);
 function mapa_del_pais($pais, $conn){
     $country = mysqli_query($conn, "SELECT DISTINCT c.map from Country c , Country_has_Diseases cd WHERE c.idCountry = cd.idCountry AND c.idCountry = '" .$pais ."';");
     while($linea = mysqli_fetch_assoc($country)){
@@ -106,7 +108,7 @@ function vaccine_complete_hash($query, $conn){
 }
 function print_simple_hash($query, $conn){
     $info_hash = vaccine_simple_hash($query, $conn);
-    print('<div class="container"><h3>Vaccinable diseases</h3><table class="table_info"><thead><tr><th>Disease name</th><th>Vaccines</th><th>Transmission</th><th>Dhis is Recomendations</th></tr></thead>');
+    print('<div class="container"><h3>Vaccinable diseases</h3><table class="table_info"><thead><tr><th>Disease name</th><th>Vaccines</th><th>Transmission</th><th>Recommendations</th></tr></thead>');
     foreach($info_hash as $key => $value){
         print '<tr><td>'.$key.'</td><td><ul>';
         foreach ($value['vaccines'] as $vaccine) {
@@ -120,7 +122,7 @@ function print_complete_hash($query, $conn){
     $info_hash = vaccine_complete_hash($query, $conn);
     $count = 0;
     if($info_hash){
-        print('<div class="container"><h3>Vaccinable diseases</h3><table class="table_info"><thead><tr><th>Disease name</th><th>Vaccines</th><th>Transmission</th><th>Dhis is Recomendations</th></tr></thead>');
+        print('<div class="container"><h3>Vaccinable diseases</h3><table class="table_info"><thead><tr><th style="width:10%;">Disease name</th><th style="width:15%;">Vaccines</th><th style="width:15%;">Transmission</th><th style="width:60%;">Recommendations</th></tr></thead>');
         foreach($info_hash as $key => $value){
             $count = $count + 1;
             print '<tr><td>'.$key.'</td><td><ul>';
@@ -156,7 +158,7 @@ require_once "include/sql_conn.inc.php";
     <meta name="author" content="">
     <link rel="icon" href="static/logo.ico">
 
-    <?php print("<title>All the iformation you want for ".$num_to_three[$_GET['desticoun']]."</title>")?>
+    <?php print("<title>All the information you want for ".$num_to_three[$_GET['desticoun']]."</title>")?>
 
     <!-- Bootstrap core CSS -->
     <link href="static/bootstrap.css" rel="stylesheet">
@@ -185,7 +187,7 @@ if($_GET['oricoun']){
 }
 
 Wiki($num_to_three[$_GET['desticoun']], $conn);
-$q_vaccine = 'SELECT v.vaccine_name, v.disease_name, d.Drecommendations, t.trans_name ';
+$q_vaccine = 'SELECT DISTINCT v.vaccine_name, v.disease_name, d.Drecommendations, t.trans_name ';
 $q_track = ['Vaccine Name', 'Disease', 'Disease Recomendations', 'Transmission'];
 if (isset($_GET['all-info-check'])){
     $q_vaccine .= ', v.vaccine_recomendations, s.Seffect_text ';
